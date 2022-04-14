@@ -1,0 +1,795 @@
+﻿<dx:ThemedWindow x:Class="MotionGuidePro.Main.MainWindow" 
+                 WindowState="Maximized" Height="450" Width="800"
+                 Loaded="MotionGuidePro_OnLoaded" Closed="MotionGuidePro_OnClosed" KeyDown="MotionGuidePro_OnKeyDown"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:local="clr-namespace:MotionGuidePro"
+                 xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+                 xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+                 xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                 xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
+                 xmlns:dxdove="http://schemas.devexpress.com/winfx/2008/xaml/docking/visualelements"
+                 xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+                 xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+                 xmlns:lib="clr-namespace:CrevisLibrary" ContentRendered="MainWindow_OnRendered"
+                 Title="MotionGuidePro">
+    <dx:ThemedWindow.Resources>
+        <ResourceDictionary>
+            <Style x:Key="treeViewItemStyle" TargetType="{x:Type TreeViewItem}">
+                <Style.Triggers>
+                    <Trigger Property="IsSelected" Value="True">
+                        <!-- Set Foreground color -->
+                        <Setter Property="Background" Value="White" />
+                    </Trigger>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <!-- Set Foreground color -->
+                        <Setter Property="Background" Value="White" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <Style TargetType="{x:Type dxdo:LayoutPanel}">
+                <Setter Property="CaptionImageStyle">
+                    <Setter.Value>
+                        <Style TargetType="dxdove:CaptionImage">
+                            <Setter Property="Width" Value="16" />
+                            <Setter Property="Height" Value="16" />
+                            <Setter Property="Stretch" Value="Fill" />
+                        </Style>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </dx:ThemedWindow.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File" FontSize="15">
+                <MenuItem Header="Open" Click="OpenButton_OnClick" InputGestureText="Ctrl + O">
+                    <MenuItem.Icon>
+                        <Image Source="../ICon/Open2_16x16.png" Width="20" Height="20" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Save" Click="SaveButton_OnClick" InputGestureText="Ctrl + S">
+                    <MenuItem.Icon>
+                        <Image Source="../ICon/Save_16x16.png" Width="20" Height="20" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Save As" Click="AnotherSaveButton_OnClick" InputGestureText="Ctrl + A">
+                    <MenuItem.Icon>
+                        <Image Source="../ICon/SaveAs_16x16.png" Width="20" Height="20" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Edit" FontSize="15">
+                <MenuItem Header="Refresh" InputGestureText="F5" Click="RefreshBtn_OnClick">
+                    <MenuItem.Icon>
+                        <Image Source="../ICon/refresh.png" Width="20" Height="20"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Configuration" FontSize="15" Click="SettingBtn_OnClick" InputGestureText="Shift + S">
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,/ICon/settingICO.png" Width="18" Height="18"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Use Icon" FontSize="15" IsCheckable="True" IsChecked="{Binding Path=UseIcon}">
+                    <!--<MenuItem.Icon>
+                        <Image Source="pack://application:,,/ICon/settingICO.png" Width="18" Height="18"/>
+                    </MenuItem.Icon>-->
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Name="ShowMenuItem" Header="History" FontSize="15" Visibility="Collapsed"/>
+        </Menu>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="0 1 0 1">
+                <Grid Background="#E9EEFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="40"/>
+                        </Grid.ColumnDefinitions>
+                        <!-- 열기 -->
+                        <Button Style="{StaticResource ImgButtonStyle}" Grid.Column="0" Click="OpenButton_OnClick">
+                            <Button.Content>
+                                <Image Source="../ICon/Open2_16x16.png" Width="20" Height="20"/>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <ToolTip>Open File.</ToolTip>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <!-- 저장 -->
+                        <Button Style="{StaticResource ImgButtonStyle}" Grid.Column="1" Click="SaveButton_OnClick">
+                            <Button.Content>
+                                <Image Source="../ICon/Save_16x16.png" Width="20" Height="20" />
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <ToolTip>Save File.</ToolTip>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <!-- 다른 이름으로 저장 -->
+                        <Button Style="{StaticResource ImgButtonStyle}" Grid.Column="2" Click="AnotherSaveButton_OnClick">
+                            <Button.Content>
+                                <Image Source="../ICon/SaveAs_16x16.png" Width="20" Height="20" />
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <ToolTip>Save File As Another Name</ToolTip>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <!-- 연결 -->
+                        <Button Name="ConnectBtn" Style="{StaticResource ImgButtonStyle}" Grid.Column="3" Click="Connect_OnClick"
+                                Visibility="{Binding Path=OnVisible}" ToolTip="Connect">
+                            <Button.Content>
+                                <Image Source="../ICon/Connect.ico" Width="20" Height="20"/>
+                            </Button.Content>
+                        </Button>
+
+                        <!-- 해제 -->
+                        <Button Name="DisconnectBtn" Style="{StaticResource ImgButtonStyle}" Grid.Column="3" Click="Disconnect_OnClick"
+                                Visibility="{Binding Path=OffVisible}" ToolTip="Disconnect">
+                            <Button.Content>
+                                <Image Source="../ICon/Disconnect.ico" Width="20" Height="20"/>
+                            </Button.Content>
+                        </Button>
+
+                        <!-- 새로고침 -->
+                        <Button Style="{StaticResource ImgButtonStyle}" Grid.Column="4" Click="RefreshBtn_OnClick">
+                            <Button.Content>
+                                <Image Source="../ICon/refresh.png" Width="20" Height="20"/>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <ToolTip>Reload Program Information</ToolTip>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <!-- 테마 변경 -->
+                        <!--<ToggleButton Style="{StaticResource ThemaBtnStyle}" Grid.Column="4" Checked="ThemaChecked"
+                                      Unchecked="ThemaUnChecked" IsChecked="True">
+                            <ToggleButton.Content>
+                                <Image Source="../ICon/ColorInvision.png" Width="20" Height="20"/>
+                            </ToggleButton.Content>
+                        </ToggleButton>-->
+
+                        <!-- 설정 -->
+                        <Button Style="{StaticResource ImgButtonStyle}" Grid.Column="5" Click="SettingBtn_OnClick">
+                            <Button.Content>
+                                <Image Source="pack://application:,,/ICon/settingICO.png" Width="18" Height="18"/>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <ToolTip>Configuration</ToolTip>
+                            </Button.ToolTip>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Border>
+
+            <dxdo:DockLayoutManager Name="Mananger" Margin="12" FloatingMode="Desktop" DockItemClosed="Mananger_DockItemClosed" DockingStyle="VS2010" Grid.Row="1"
+                                    DockItemDocking="Manager_DockItemDocked">
+                <dxdo:DockLayoutManager.FloatGroups>
+                    <dxdo:FloatGroup x:Name="floatGroup"/>
+                </dxdo:DockLayoutManager.FloatGroups>
+                <dxdo:LayoutGroup>
+                    <dxdo:LayoutGroup Orientation="Horizontal">
+                        <dxdo:LayoutGroup Name="TreeViewPanel" ItemWidth="200">
+                            <dxdo:LayoutPanel Name="WorkspacePanel"  Caption="Workspace(Offline)" AllowClose="False" CaptionImage="{dx:SvgImageSource Uri='pack://application:,,,/DevExpress.Images.v21.1;component/SvgImages/Dashboards/InsertTabContainer.svg'}">
+                                <TreeView Name="treeView"/>
+                            </dxdo:LayoutPanel>
+                        </dxdo:LayoutGroup>
+                        <dxdo:LayoutGroup Orientation="Horizontal">
+                            <dxdo:LayoutGroup Orientation="Vertical" ItemWidth="*">
+                                <dxdo:LayoutGroup Orientation="Vertical" ItemHeight="7*">
+                                    <dxdo:LayoutGroup Name="MeasurePanel" Orientation="Horizontal" ItemHeight="6*">
+                                        <dxdo:LayoutGroup Name="MeasureGroup" ItemWidth="*">
+                                        <dxdo:DocumentGroup Name="DocGroup" ClosePageButtonShowMode="InActiveTabPageAndTabControlHeader"
+                                    SelectedItemChanged="DocGroup_SelectedItemChanged">
+                                            <dxdo:DocumentPanel x:Name="DevicePanel" AllowClose="False" AllowDock="False" AllowDrag="False" AllowDrop="False" AllowFloat="False" AllowSelection="False" Caption="HOMEPAGE"
+                                                            IsSelectedItem="False">
+                                                <!--<Image Source="../ICon/Homepage.png" Stretch="Fill" />-->
+                                                <Grid>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition/>
+                                                        <RowDefinition Height="*"/>
+                                                        <RowDefinition Height="200"/>
+                                                        <RowDefinition/>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition/>
+                                                        <ColumnDefinition/>
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <!-- Right Space -->
+                                                    <Grid Grid.RowSpan="4" Grid.Column="1">
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition/>
+                                                            <RowDefinition/>
+                                                        </Grid.RowDefinitions>
+
+                                                        <Border Background="Gainsboro" Opacity="0.5" Margin="10 30 30 30">
+                                                            <Grid>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="50"/>
+                                                                    <ColumnDefinition Width="1.2*"/>
+                                                                    <ColumnDefinition Width="200"/>
+                                                                </Grid.ColumnDefinitions>
+                                                                <Grid.RowDefinitions>
+                                                                    <RowDefinition Height="*"/>
+                                                                    <RowDefinition Height="*"/>
+                                                                    <RowDefinition Height="*"/>
+                                                                    <RowDefinition Height="*"/>
+                                                                    <RowDefinition Height="*"/>
+                                                                </Grid.RowDefinitions>
+
+                                                                <Grid Grid.Row="0" Grid.Column="1">
+                                                                    <Grid.ColumnDefinitions>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                    </Grid.ColumnDefinitions>
+
+                                                                    <TextBlock Text="V" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="0" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="P" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="1" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="Z" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="2" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="L" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="3" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="W" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="4" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="V" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="5" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="U" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="6" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="R" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="7" FontSize="20" FontWeight="Bold"/>
+                                                                </Grid>
+
+                                                                <!-- Encoder Count -->
+                                                                <TextBlock Name="EncoderCountText" Text="Encoder Count" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                       Grid.Row="0" Grid.Column="2" FontSize="20" FontWeight="Bold"/>
+                                                                <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="2" Margin="0 5 0 5"
+                                                                    Width="{Binding ElementName=EncoderCountText, Path=ActualWidth}">
+                                                                    <TextBlock Text="{Binding Path=EncoderCountA}" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                                                           FontSize="20"/>
+                                                                </Border>
+
+                                                                <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="2" Margin="0 5 0 5"
+                                                                    Width="{Binding ElementName=EncoderCountText, Path=ActualWidth}">
+                                                                    <TextBlock Text="{Binding Path=EncoderCountB}" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                                                           FontSize="20"/>
+                                                                </Border>
+
+                                                                <!-- 1st -->
+                                                                <TextBlock Text="1st" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                       Grid.Row="1" Grid.Column="0" FontSize="15" FontWeight="Bold"/>
+                                                                <ItemsControl Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Path=FirstLineList}">
+                                                                    <ItemsControl.ItemsPanel>
+                                                                        <ItemsPanelTemplate>
+                                                                            <UniformGrid Columns="8"/>
+                                                                        </ItemsPanelTemplate>
+                                                                    </ItemsControl.ItemsPanel>
+                                                                    <ItemsControl.ItemTemplate>
+                                                                        <DataTemplate>
+                                                                            <Label Background="{Binding Path=LightColor}" Margin="5"
+                                                                               BorderBrush="Gray" BorderThickness="2"/>
+                                                                        </DataTemplate>
+                                                                    </ItemsControl.ItemTemplate>
+                                                                </ItemsControl>
+
+                                                                <!-- 2nd -->
+                                                                <TextBlock Text="2nd" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                       Grid.Row="2" Grid.Column="0" FontSize="15" FontWeight="Bold"/>
+                                                                <ItemsControl Grid.Row="2" Grid.Column="1" ItemsSource="{Binding Path=SecondLineList}">
+                                                                    <ItemsControl.ItemsPanel>
+                                                                        <ItemsPanelTemplate>
+                                                                            <UniformGrid Columns="8"/>
+                                                                        </ItemsPanelTemplate>
+                                                                    </ItemsControl.ItemsPanel>
+                                                                    <ItemsControl.ItemTemplate>
+                                                                        <DataTemplate>
+                                                                            <Label Background="{Binding Path=LightColor}" Margin="5"
+                                                                               BorderBrush="Gray" BorderThickness="2"/>
+                                                                        </DataTemplate>
+                                                                    </ItemsControl.ItemTemplate>
+                                                                </ItemsControl>
+
+                                                                <Grid Grid.Row="3" Grid.Column="1">
+                                                                    <Grid.ColumnDefinitions>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                        <ColumnDefinition/>
+                                                                    </Grid.ColumnDefinitions>
+
+                                                                    <TextBlock Text="-" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="0" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="-" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="1" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="-" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="2" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="4" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="3" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="3" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="4" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="5" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="6" FontSize="20" FontWeight="Bold"/>
+                                                                    <TextBlock Text="0" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                           Grid.Column="7" FontSize="20" FontWeight="Bold"/>
+                                                                </Grid>
+
+                                                                <!-- PHS -->
+                                                                <!-- 2nd -->
+                                                                <TextBlock Text="PHS" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                       Grid.Row="4" Grid.Column="0" FontSize="15" FontWeight="Bold"/>
+                                                                <ItemsControl Grid.Row="4" Grid.Column="1" ItemsSource="{Binding Path=PHSLineList}">
+                                                                    <ItemsControl.ItemsPanel>
+                                                                        <ItemsPanelTemplate>
+                                                                            <UniformGrid Columns="8"/>
+                                                                        </ItemsPanelTemplate>
+                                                                    </ItemsControl.ItemsPanel>
+                                                                    <ItemsControl.ItemTemplate>
+                                                                        <DataTemplate>
+                                                                            <Label Background="{Binding Path=LightColor}" Margin="5"
+                                                                               BorderBrush="Gray" BorderThickness="2"/>
+                                                                        </DataTemplate>
+                                                                    </ItemsControl.ItemTemplate>
+                                                                </ItemsControl>
+                                                            </Grid>
+                                                        </Border>
+
+                                                        <!-- 기본 정보 -->
+                                                        <ListView x:Name="BoardDataList" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                                            Grid.Row="1" Margin="10 30 30 30" ItemsSource="{Binding Path=BoardBaseInfoList}"
+                                                            SizeChanged="BoardDataList_SizeChanged" Background="Gray">
+                                                                <ListView.View>
+                                                                    <GridView x:Name="BoardDataGridView">
+                                                                        <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                                                                        <GridViewColumn Header="Value" DisplayMemberBinding="{Binding Value}"/>
+                                                                    </GridView>
+                                                                </ListView.View>
+                                                                <ListView.ItemContainerStyle>
+                                                                    <Style TargetType="{x:Type ListViewItem}">
+                                                                        <Style.Setters>
+                                                                            <Setter Property="Background" Value="LightGray"/>
+                                                                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                                                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                                                            <Setter Property="FontSize" Value="20"/>
+                                                                        </Style.Setters>
+                                                                    </Style>
+                                                                </ListView.ItemContainerStyle>
+                                                            </ListView>
+                                                            <!--<DataGrid x:Name="DataGridView" AutoGenerateColumns="False" Grid.Row="1" Margin="10 30 30 30"
+                                                              Loaded="DataGrid_Loaded" CanUserAddRows="False" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                                            <DataGrid.Columns>
+                                                                <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}" FontSize="20">
+                                                                    <DataGridTextColumn.CellStyle>
+                                                                        <Style TargetType="DataGridCell">
+                                                                            <Style.Setters>
+                                                                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                                                                            </Style.Setters>
+                                                                        </Style>
+                                                                    </DataGridTextColumn.CellStyle>
+                                                                    <DataGridTextColumn.HeaderStyle>
+                                                                        <Style TargetType="DataGridColumnHeader">
+                                                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                                                        </Style>
+                                                                    </DataGridTextColumn.HeaderStyle>
+                                                                </DataGridTextColumn>
+                                                                <DataGridTextColumn Header="Value" Binding="{Binding Path=Value}" FontSize="20">
+                                                                    <DataGridTextColumn.CellStyle>
+                                                                        <Style TargetType="DataGridCell">
+                                                                            <Style.Setters>
+                                                                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                                                                            </Style.Setters>
+                                                                        </Style>
+                                                                    </DataGridTextColumn.CellStyle>
+                                                                    <DataGridTextColumn.HeaderStyle>
+                                                                        <Style TargetType="DataGridColumnHeader">
+                                                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                                                        </Style>
+                                                                    </DataGridTextColumn.HeaderStyle>
+                                                                </DataGridTextColumn>
+                                                            </DataGrid.Columns>
+                                                        </DataGrid>-->
+                                                    </Grid>
+
+                                                    <Grid Grid.Row="1">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition/>
+                                                            <ColumnDefinition Width="6*"/>
+                                                            <ColumnDefinition/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <!--<Border Grid.Column="1" BorderBrush="Black" BorderThickness="2">-->
+                                                        <!--<TextBlock Text="디바이스 공간" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                            FontSize="50"/>-->
+                                                        <Image Source="../ICon/test.png" Grid.Column="1" Margin="-5 0 0 0"/>
+                                                        <!--</Border>-->
+                                                    </Grid>
+
+                                                    <Grid Grid.Row="2">
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition/>
+                                                            <RowDefinition Height="50"/>
+                                                        </Grid.RowDefinitions>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="6*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                        </Grid.ColumnDefinitions>
+
+                                                        <Grid Grid.Row="0" Grid.Column="1">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="*"/>
+                                                                <ColumnDefinition Width="6*"/>
+                                                                <ColumnDefinition Width="*"/>
+                                                            </Grid.ColumnDefinitions>
+
+                                                            <!--Left-->
+                                                            <Label Name="LeftPCB" Background="Transparent" Margin="5 40" Grid.Row="0" Grid.Column="0">
+                                                                <Label.Style>
+                                                                    <Style TargetType="{x:Type Label}">
+                                                                        <Style.Setters>
+                                                                            <Setter Property="Effect">
+                                                                                <Setter.Value>
+                                                                                    <DropShadowEffect ShadowDepth="10" Opacity="0.8" Color="LightGray" Direction="-145" />
+                                                                                </Setter.Value>
+                                                                            </Setter>
+                                                                        </Style.Setters>
+                                                                    </Style>
+                                                                </Label.Style>
+                                                                <Label.Content>
+                                                                    <Image Name="LeftSide" Source="../ICon/PCB.png" Height="{Binding ElementName=LeftPCB, Path=ActualHeight}"/>
+                                                                </Label.Content>
+                                                            </Label>
+
+                                                            <!--Center-->
+                                                            <Grid Grid.Row="0" Grid.Column="1">
+                                                                <Grid.RowDefinitions>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                    <RowDefinition/>
+                                                                </Grid.RowDefinitions>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition/>
+                                                                    <ColumnDefinition/>
+                                                                    <ColumnDefinition/>
+                                                                </Grid.ColumnDefinitions>
+                                                                <Border Background="#303030" Grid.RowSpan="10" Grid.ColumnSpan="3" Margin="10 30">
+                                                                    <Border.Style>
+                                                                        <Style TargetType="{x:Type Border}">
+                                                                            <Style.Setters>
+                                                                                <Setter Property="Effect">
+                                                                                    <Setter.Value>
+                                                                                        <DropShadowEffect ShadowDepth="10" Opacity="0.8" Color="Black" Direction="-140"/>
+                                                                                    </Setter.Value>
+                                                                                </Setter>
+                                                                            </Style.Setters>
+                                                                        </Style>
+                                                                    </Border.Style>
+                                                                    <ItemsControl ItemsSource="{Binding Path=BoardLineList}">
+                                                                        <ItemsControl.ItemsPanel>
+                                                                            <ItemsPanelTemplate>
+                                                                                <UniformGrid Columns="20"/>
+                                                                            </ItemsPanelTemplate>
+                                                                        </ItemsControl.ItemsPanel>
+                                                                        <ItemsControl.ItemTemplate>
+                                                                            <DataTemplate>
+                                                                                <Label Margin="5 10">
+                                                                                    <Label.Background>
+                                                                                        <LinearGradientBrush EndPoint="0.811,0.2" StartPoint="0.246,1.023">
+                                                                                            <GradientStop Color="Silver" Offset="0"/>
+                                                                                            <GradientStop Color="Silver" Offset="1"/>
+                                                                                            <GradientStop Color="LightGray" Offset="0.491"/>
+                                                                                        </LinearGradientBrush>
+                                                                                    </Label.Background>
+                                                                                    <Label.Style>
+                                                                                        <Style TargetType="{x:Type Label}">
+                                                                                            <Style.Setters>
+                                                                                                <Setter Property="Effect">
+                                                                                                    <Setter.Value>
+                                                                                                        <DropShadowEffect ShadowDepth="5" Opacity="0.7" Color="Gray"/>
+                                                                                                    </Setter.Value>
+                                                                                                </Setter>
+                                                                                            </Style.Setters>
+                                                                                        </Style>
+                                                                                    </Label.Style>
+                                                                                </Label>
+                                                                            </DataTemplate>
+                                                                        </ItemsControl.ItemTemplate>
+                                                                    </ItemsControl>
+                                                                </Border>
+                                                            </Grid>
+
+                                                            <!--Right-->
+                                                            <Label Name="RightPCB" Background="Transparent" Margin="5 40" Grid.Row="0" Grid.Column="2">
+                                                                <Label.Style>
+                                                                    <Style TargetType="{x:Type Label}">
+                                                                        <Style.Setters>
+                                                                            <Setter Property="Effect">
+                                                                                <Setter.Value>
+                                                                                    <DropShadowEffect ShadowDepth="10" Opacity="0.8" Color="LightGray" Direction="-145" />
+                                                                                </Setter.Value>
+                                                                            </Setter>
+                                                                        </Style.Setters>
+                                                                    </Style>
+                                                                </Label.Style>
+                                                                <Label.Content>
+                                                                    <Image Name="RightSide" Source="../ICon/PCB.png" Height="{Binding ElementName=LeftPCB, Path=ActualHeight}"/>
+                                                                </Label.Content>
+                                                            </Label>
+                                                        </Grid>
+
+                                                        <!-- Bottom -->
+                                                        <Grid Grid.Row="1" Grid.Column="1">
+                                                            <Border Margin="30 15">
+                                                                <Border.Background>
+                                                                    <ImageBrush x:Name="myImg" Stretch="Fill"/>
+                                                                </Border.Background>
+                                                                <Border.Effect>
+                                                                    <DropShadowEffect BlurRadius="10" ShadowDepth="7" Direction="315"/>
+                                                                </Border.Effect>
+                                                                <Border.BorderBrush>
+                                                                    <LinearGradientBrush EndPoint="0.811,0.2" StartPoint="0.246,1.023">
+                                                                        <GradientStop Color="#FF7C9FC8" Offset="0"/>
+                                                                        <GradientStop Color="#FF7C9FC8" Offset="1"/>
+                                                                        <GradientStop Color="#FF353535" Offset="0.491"/>
+                                                                    </LinearGradientBrush>
+                                                                </Border.BorderBrush>
+                                                                <Border BorderThickness="0" CornerRadius="0" Margin="0" >
+                                                                    <Border.Background>
+                                                                        <RadialGradientBrush GradientOrigin="0.7,-0.6" RadiusY="0.5" RadiusX="1.001">
+                                                                            <RadialGradientBrush.RelativeTransform>
+                                                                                <TransformGroup>
+                                                                                    <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleY="1" ScaleX="1"/>
+                                                                                    <SkewTransform AngleY="0" AngleX="0" CenterY="0.5" CenterX="0.5"/>
+                                                                                    <RotateTransform Angle="-29.285" CenterY="0.5" CenterX="0.5"/>
+                                                                                    <TranslateTransform/>
+                                                                                </TransformGroup>
+                                                                            </RadialGradientBrush.RelativeTransform>
+                                                                            <GradientStop Color="Silver"/>
+                                                                            <GradientStop Color="LightGray" Offset="0.578"/>
+                                                                            <GradientStop Color="Silver" Offset="1.5"/>
+                                                                        </RadialGradientBrush>
+                                                                    </Border.Background>
+                                                                    <Border.Style>
+                                                                        <Style TargetType="{x:Type Border}">
+                                                                            <Style.Setters>
+                                                                                <Setter Property="Effect">
+                                                                                    <Setter.Value>
+                                                                                        <DropShadowEffect ShadowDepth="10" Opacity="0.8" Color="DimGray" Direction="-145" />
+                                                                                    </Setter.Value>
+                                                                                </Setter>
+                                                                            </Style.Setters>
+                                                                        </Style>
+                                                                    </Border.Style>
+                                                                    <Grid>
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="50"/>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition Width="50"/>
+                                                                        </Grid.ColumnDefinitions>
+
+                                                                        <Grid Grid.Column="1">
+                                                                            <ItemsControl ItemsSource="{Binding Path=BottomLedList}">
+                                                                                <ItemsControl.ItemsPanel>
+                                                                                    <ItemsPanelTemplate>
+                                                                                        <UniformGrid Columns="5"/>
+                                                                                    </ItemsPanelTemplate>
+                                                                                </ItemsControl.ItemsPanel>
+                                                                                <ItemsControl.ItemTemplate>
+                                                                                    <DataTemplate>
+                                                                                        <Ellipse Fill="{Binding Path=LightColor}" Stroke="Gray" StrokeThickness="2"
+                                                                                        Width="15" Height="15" Grid.Column="0"/>
+                                                                                    </DataTemplate>
+                                                                                </ItemsControl.ItemTemplate>
+                                                                            </ItemsControl>
+
+                                                                            <!--
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition/>
+                                                                        </Grid.ColumnDefinitions>
+
+                                                                        
+                                                                        <Ellipse Fill="Transparent" Stroke="Gray" StrokeThickness="2"
+                                                                             Width="15" Height="15" Grid.Column="1"/>
+                                                                        <Ellipse Fill="Transparent" Stroke="Gray" StrokeThickness="2"
+                                                                             Width="15" Height="15" Grid.Column="2"/>
+                                                                        <Ellipse Fill="Transparent" Stroke="Gray" StrokeThickness="2"
+                                                                             Width="15" Height="15" Grid.Column="3"/>
+                                                                        <Ellipse Fill="Transparent" Stroke="Gray" StrokeThickness="2"
+                                                                             Width="15" Height="15" Grid.Column="4"/>
+                                                                        -->
+                                                                            <!-- #17FF04 -->
+                                                                        </Grid>
+                                                                    </Grid>
+                                                                </Border>
+                                                            </Border>
+                                                        </Grid>
+                                                    </Grid>
+
+                                                    <!-- 모니터링 버튼 -->
+                                                    <Grid Grid.Row="3">
+                                                        <ToggleButton Name="MonitoringBtn" Margin="30" Content="Monitoring Start" Checked="Monitoring_OnStart"
+                                                                  Unchecked="Monitoring_OnStop" IsChecked="False"/>
+                                                        <!--<Button Margin="30" Content="TEST" Click="TestBtn_OnClick"/>-->
+                                                    </Grid>
+                                                </Grid>
+                                            </dxdo:DocumentPanel>
+                                        </dxdo:DocumentGroup>
+                                    </dxdo:LayoutGroup>
+                                    </dxdo:LayoutGroup>
+                                </dxdo:LayoutGroup>
+                                <dxdo:LayoutGroup ItemHeight="1.7*">
+                                    <dxdo:LayoutGroup Orientation="Horizontal">
+                                        <dxdo:TabbedGroup ItemWidth="2*">
+                                            <dxdo:LayoutPanel Caption="Log List" AllowClose="False" CaptionImage="{dx:SvgImageSource Uri='pack://application:,,,/DevExpress.Images.v21.1;component/SvgImages/Spreadsheet/ChartVerticalAxis_LogScale.svg'}" ShowPinButton="False">
+                                                <ListView Name="ErrorLstView" SizeChanged="LogList_OnSizeChanged" ItemsSource="{Binding Path=LogList}"
+                                             Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=dxdo:TabbedGroup}, Path=ItemWidth}">
+                                                    <ListView.ContextMenu>
+                                                        <ContextMenu>
+                                                            <MenuItem Header="Clear" Click="LogView_OnClearClick"/>
+                                                        </ContextMenu>
+                                                    </ListView.ContextMenu>
+                                                    <ListView.View>
+                                                        <GridView>
+                                                            <GridView.Columns>
+                                                                <GridViewColumn Header="State" Width="35">
+                                                                    <GridViewColumn.CellTemplate>
+                                                                        <DataTemplate>
+                                                                            <Image Name="img" Source="../ICon/Done.png" Width="15" Height="15" />
+                                                                            <DataTemplate.Triggers>
+                                                                                <DataTrigger Binding="{Binding Path=LogStatus}" Value="1">
+                                                                                    <Setter Property="Source" Value="../ICon/Done.png" TargetName="img"/>
+                                                                                </DataTrigger>
+                                                                                <DataTrigger Binding="{Binding Path=LogStatus}" Value="0">
+                                                                                    <Setter Property="Source" Value="../ICon/Cancel.png" TargetName="img"/>
+                                                                                </DataTrigger>
+                                                                            </DataTemplate.Triggers>
+                                                                        </DataTemplate>
+                                                                    </GridViewColumn.CellTemplate>
+                                                                </GridViewColumn>
+                                                                <GridViewColumn x:Name="Msg" Header="Message" Width="{Binding Path=MessageWidth}">
+                                                                    <GridViewColumn.CellTemplate>
+                                                                        <DataTemplate>
+                                                                            <TextBlock Text="{Binding Path=Message}" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                                                                        </DataTemplate>
+                                                                    </GridViewColumn.CellTemplate>
+                                                                </GridViewColumn>
+                                                                <GridViewColumn x:Name="Time" Header="Time" Width="{Binding Path=TimeWidth}">
+                                                                    <GridViewColumn.CellTemplate>
+                                                                        <DataTemplate>
+                                                                            <TextBlock Text="{Binding Path=LogTime}" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                                                                        </DataTemplate>
+                                                                    </GridViewColumn.CellTemplate>
+                                                                </GridViewColumn>
+                                                                <!--<GridViewColumn x:Name="Trace" Header="StactTrace" Width="{Binding Path=MessageWidth}">
+                                                                <GridViewColumn.CellTemplate>
+                                                                    <DataTemplate>
+                                                                        <TextBlock Text="{Binding Path=StactTrace}" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                                                                    </DataTemplate>
+                                                                </GridViewColumn.CellTemplate>
+                                                            </GridViewColumn>-->
+                                                            </GridView.Columns>
+                                                        </GridView>
+                                                    </ListView.View>
+                                                    <ListView.ItemContainerStyle>
+                                                        <Style TargetType="{x:Type ListViewItem}">
+                                                            <Style.Setters>
+                                                                <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                                                            </Style.Setters>
+                                                        </Style>
+                                                    </ListView.ItemContainerStyle>
+                                                </ListView>
+                                            </dxdo:LayoutPanel>
+                                        </dxdo:TabbedGroup>
+                                        <dxdo:LayoutPanel ItemWidth="0.7*" AllowDock="True" AllowFloat="True" ShowPinButton="False" ShowCloseButton="False" Caption="StateView" CaptionImage="{dx:SvgImageSource Uri='pack://application:,,,/DevExpress.Images.v21.1;component/SvgImages/XAF/State_Validation_Warning.svg'}">
+                                            <dxdo:LayoutPanel.Content>
+                                                <Border BorderBrush="Black" BorderThickness="1" Margin="8">
+                                                    <Grid Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=dxdo:LayoutPanel}, Path=ActualWidth}">
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition />
+                                                            <RowDefinition />
+                                                            <RowDefinition />
+                                                        </Grid.RowDefinitions>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition />
+                                                            <ColumnDefinition Width="80" />
+                                                        </Grid.ColumnDefinitions>
+
+                                                        <!-- Error State -->
+                                                        <Grid Grid.Row="0">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="50" />
+                                                                <ColumnDefinition Width="*" />
+                                                            </Grid.ColumnDefinitions>
+
+                                                            <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0 0 1 1">
+                                                                <TextBlock Text="{Binding Path=ErrorCode}" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                                                                       FontSize="12"/>
+                                                            </Border>
+
+                                                            <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0 0 1 1">
+                                                                <TextBlock Text="{Binding Path=ErrorMessage}" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                                                                       FontSize="15"/>
+                                                            </Border>
+                                                        </Grid>
+
+                                                        <!-- Servo ON/OFF -->
+                                                        <Grid Grid.Row="1">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="50" />
+                                                                <ColumnDefinition Width="*" />
+                                                            </Grid.ColumnDefinitions>
+
+                                                            <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0 0 1 1">
+                                                                <TextBlock Text="{Binding Path=MotorStateCode}" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                                                                       FontSize="12"/>
+                                                            </Border>
+
+                                                            <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0 0 1 1">
+                                                                <TextBlock Text="{Binding Path=MotorStateMessage}" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                                                                       FontSize="15"/>
+                                                            </Border>
+                                                        </Grid>
+
+                                                        <TextBox Text="{Binding Path=ErrorDescription}" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" BorderThickness="1" 
+                                                             FontSize="15"/>
+
+                                                        <Button Name="AlarmButton" Style="{StaticResource CustomButtonStyle}" 
+                                                        Grid.RowSpan="3" Grid.Column="1" Width="50" HorizontalAlignment="Left" 
+                                                        BorderBrush="Red" Background="White" Content="Alarm &#xA; Clear"
+                                                        Click="AlarmClearBtn_OnClick" Margin="5"/>
+                                                    </Grid>
+                                                </Border>
+                                            </dxdo:LayoutPanel.Content>
+                                        </dxdo:LayoutPanel>
+                                    </dxdo:LayoutGroup>
+                                </dxdo:LayoutGroup>
+                            </dxdo:LayoutGroup>
+                        </dxdo:LayoutGroup>
+                    </dxdo:LayoutGroup>
+                </dxdo:LayoutGroup>
+            </dxdo:DockLayoutManager>
+        </Grid>
+    </DockPanel>
+</dx:ThemedWindow>

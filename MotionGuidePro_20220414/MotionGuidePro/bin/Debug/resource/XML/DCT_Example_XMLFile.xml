@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Category Name="디바이스 정보">
+  <Parameter Name="디바이스 이름" ParamType="String" Value="Device1" AccessMode="ReadWrite" Description="디바이스 이름 정의" Address="0x0" Unit="" Length="0" PortType="None" InitValue="" Min="0" Max="0" Default="True" />
+  <Parameter Name="Server IP" ParamType="String" Value="192.168.230.50" AccessMode="ReadWrite" Description="디바이스 IP 주소값" Address="0x0" Unit="" Length="0" PortType="None" InitValue="" Min="0" Max="0" Default="True" />
+  <Parameter Name="Client IP" ParamType="String" Value="192.168.230.20" AccessMode="ReadWrite" Description="디바이스 IP 주소값" Address="0x0" Unit="" Length="0" PortType="None" InitValue="" Min="0" Max="0" Default="True" />
+  <Parameter Name="Port" ParamType="Integer" Value="0" AccessMode="ReadWrite" Description="디바이스 포트 값" Address="0x0" Unit="" Length="0" PortType="None" InitValue="" Min="0" Max="0" Default="True" />
+  <Parameter Name="Timeout" ParamType="Float" Value="5" AccessMode="ReadWrite" Description="통신 Timeout 값" Address="0x0" Unit="" Length="0" PortType="None" InitValue="" Min="0" Max="0" Default="True" />
+  <Parameter Name="ErrorStatePeriod" ParamType="Integer" Value="5" AccessMode="ReadWrite" Description="에러 상태 값 받는 시간 주기 값" Address="0x0" Unit="" Length="0" PortType="None" InitValue="" Min="0" Max="0" Default="True" />
+  <Parameter Name="MonitoringTime" ParamType="Float" Value="0.15" AccessMode="ReadWrite" Description="모니터링 시간 주기 값" Address="0x0" Unit="" Length="0" PortType="None" InitValue="" Min="0.15" Max="0" Default="True" />
+  <Category Name="컨텐츠 목록">
+    <Category Name="Configuration" Value="ParameterContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="Device type" ParamType="Integer" Value="5001" AccessMode="ReadOnly" Description="CoE의 장치 프로파일 번호를 표시" Representation="HexNumber" Address="0x1208" Unit="" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Device Name" ParamType="String" Value="SVP_D400" AccessMode="ReadOnly" Description="모델명을 표시" Address="0x1209" Unit="" Length="8" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="H/W Version" ParamType="String" Value="Rev1.400" AccessMode="ReadOnly" Description="하드웨어 버전을 표시" Address="0x120A" Unit="" Length="8" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="S/W Version" ParamType="String" Value="Rev1.005" AccessMode="ReadOnly" Description="소프트웨어 버전을 표시" Address="0x120B" Unit="" Length="8" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Store Parameter" ParamType="Boolean" Value="False" AccessMode="ReadWrite" Description="1 입력시 정수 저장" Address="0x1502" Unit="" Length="1" PortType="None" InitValue="0" Min="0" Max="1" Default="True" />
+        <Parameter Name="Vendor ID" ParamType="Integer" Value="669" AccessMode="ReadOnly" Description="제조업체의 ID를 표시" Representation="HexNumber" Address="0x120C" Unit="" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Product Code" ParamType="Integer" Value="43861060" AccessMode="ReadOnly" Description="제품 코드를 표시" Representation="HexNumber" Address="0x120D" Unit="" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Revision Number" ParamType="Integer" Value="1" AccessMode="ReadOnly" Description="Revision Number를 표시" Representation="HexNumber" Address="0x120E" Unit="" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Serial Number" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="Serial Number를 표시" Address="0x120F" Unit="" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Command Polarity" ParamType="Enum" Value="1" AccessMode="ReadWrite" Description="회전 방향 선택" Address="0x1201" Unit="" Length="1" PortType="None" InitValue="0" Min="0" Max="1" Default="True">
+          <EnumEntry Value="0" DisplayName="CW" />
+          <EnumEntry Value="1" DisplayName="CCW" />
+        </Parameter>
+        <Parameter Name="Alias ID" ParamType="Short" Value="0" AccessMode="ReadWrite" Description="EtherCAT 노드 주소를 선택" Address="0x1203" Unit="" Length="2" PortType="None" InitValue="0" Min="0" Max="255" Default="True" />
+        <Parameter Name="In Position Window" ParamType="Short" Value="20" AccessMode="ReadWrite" Description="위치 완료 검출신호의  범위 설정" Address="0x1205" Unit="Counts" Length="2" PortType="None" InitValue="20" Min="0" Max="5000" Default="True" />
+        <Parameter Name="Near Position Window" ParamType="Short" Value="20" AccessMode="ReadWrite" Description="위치 근접 검출신호의  범위 설정" Address="0x1206" Unit="Counts" Length="2" PortType="None" InitValue="20" Min="0" Max="5000" Default="True" />
+        <Parameter Name="CurrentLimit" ParamType="Short" Value="100" AccessMode="ReadWrite" Description="정격전류 대비 출력 전류 제한을 설정" Address="0x1204" Unit="%" Length="2" PortType="None" InitValue="100" Min="50" Max="250" Default="True" />
+        <Parameter Name="Max Accum Current" ParamType="Short" Value="300" AccessMode="ReadWrite" Description="누적전류 제한 시간을 설정" Address="0x1226" Unit="0.5ms" Length="2" PortType="None" InitValue="300" Min="0" Max="3600" Default="True" />
+        <Parameter Name="Two Pallet Alam Enable" ParamType="Boolean" Value="True" AccessMode="ReadWrite" Description="Two Pallet 알람 설정" Address="0x1227" Unit="" Length="1" PortType="None" InitValue="0" Min="0" Max="1" Default="True" />
+        <Parameter Name="Two Pallet Detection Threshold" ParamType="Short" Value="50" AccessMode="ReadWrite" Description="Two Pallet 제한 설정" Address="0x1224" Unit="Counts" Length="2" PortType="None" InitValue="50" Min="0" Max="30000" Default="True" />
+      </Category>
+    </Category>
+    <Category Name="LMMT" Value="ParameterContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="LMMT Positive Distance/Position" ParamType="Integer" Value="40000" AccessMode="ReadWrite" Description="정방향 진입시 목표 위치값" Address="0x1210" Unit="Counts" Length="4" PortType="None" InitValue="40000" Min="0" Max="40000" Default="True" />
+        <Parameter Name="LMMT Negative Distance/Position" ParamType="Integer" Value="-40000" AccessMode="ReadWrite" Description="역방향 진입시 목표 위치값" Address="0x1211" Unit="Counts" Length="4" PortType="None" InitValue="-40000" Min="-40000" Max="0" Default="True" />
+        <Parameter Name="LMMT 1st Velocity" ParamType="Short" Value="800" AccessMode="ReadWrite" Description="속도 명령" Address="0x1214" Unit="mm/s" Length="2" PortType="None" InitValue="800" Min="1" Max="1000" Default="True" />
+        <Parameter Name="LMMT 1st Acceleration" ParamType="Short" Value="300" AccessMode="ReadWrite" Description="가속 시간 명령" Address="0x1215" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT 1st Deceleration" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="감속 시간 명령" Address="0x1216" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT 2nd Positive Distance/Position" ParamType="Integer" Value="32000" AccessMode="ReadWrite" Description="정방향 진입시 목표 위치값" Address="0x1212" Unit="Counts" Length="4" PortType="None" InitValue="32000" Min="-2147483647" Max="2147483647" Default="True" />
+        <Parameter Name="LMMT 2nd Negative Distance/Position" ParamType="Integer" Value="-32000" AccessMode="ReadWrite" Description="역방향 진입시 목표 위치값" Address="0x1213" Unit="Counts" Length="4" PortType="None" InitValue="-32000" Min="-2147483647" Max="2147483647" Default="True" />
+        <Parameter Name="LMMT 2nd Velocity" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="속도 명령" Address="0x1217" Unit="mm/s" Length="2" PortType="None" InitValue="500" Min="1" Max="1000" Default="True" />
+        <Parameter Name="LMMT 2nd Acceleration" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="가속 시간 명령" Address="0x1218" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT 2nd Deceleration" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="감속 시간 명령" Address="0x1219" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT HOME Positive Distance/Position" ParamType="Integer" Value="40000" AccessMode="ReadWrite" Description="정방향 진입시 목표 위치값" Address="0x121A" Unit="Counts" Length="4" PortType="None" InitValue="40000" Min="-2147483647" Max="2147483647" Default="True" />
+        <Parameter Name="LMMT HOME Negative Distance/Position" ParamType="Integer" Value="-40000" AccessMode="ReadWrite" Description="역방향 진입시 목표 위치값" Address="0x121B" Unit="Counts" Length="4" PortType="None" InitValue="-40000" Min="-2147483647" Max="2147483647" Default="True" />
+        <Parameter Name="LMMT HOME 1st Velocity" ParamType="Short" Value="100" AccessMode="ReadWrite" Description="속도 명령" Address="0x121E" Unit="mm/s" Length="2" PortType="None" InitValue="100" Min="1" Max="1000" Default="True" />
+        <Parameter Name="LMMT HOME 1st Acceleration" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="가속 시간 명령" Address="0x121F" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT HOME 1st Deceleration" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="감속 시간 명령" Address="0x1220" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT HOME 2nd Positive Distance/Position" ParamType="Integer" Value="10000" AccessMode="ReadWrite" Description="정방향 진입시 목표 위치값" Address="0x121C" Unit="Counts" Length="4" PortType="None" InitValue="10000" Min="-2147483647" Max="2147483647" Default="True" />
+        <Parameter Name="LMMT HOME 2nd Negative Distance/Position" ParamType="Integer" Value="-10000" AccessMode="ReadWrite" Description="역방향 진입시 목표 위치값" Address="0x121D" Unit="Counts" Length="4" PortType="None" InitValue="-10000" Min="-2147483647" Max="2147483647" Default="True" />
+        <Parameter Name="LMMT HOME 2nd Velocity" ParamType="Short" Value="200" AccessMode="ReadWrite" Description="속도 명령" Address="0x1221" Unit="mm/s" Length="2" PortType="None" InitValue="200" Min="1" Max="1000" Default="True" />
+        <Parameter Name="LMMT HOME 2nd Acceleration" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="가속 시간 명령" Address="0x1222" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT HOME 2nd Deceleration" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="감속 시간 명령" Address="0x1223" Unit="ms" Length="2" PortType="None" InitValue="500" Min="1" Max="6000" Default="True" />
+        <Parameter Name="LMMT MOSI" ParamType="Short" Value="0" AccessMode="ReadWrite" Description="LMMT MOSI" Address="0x12C1" Unit="" Length="2" PortType="None" InitValue="0" Min="0" Max="255" Default="True" />
+      </Category>
+    </Category>
+    <Category Name="Tuning" Value="ParameterContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="1st Current Regulator P Gain" ParamType="Short" Value="3000" AccessMode="ReadWrite" Description="전류 제어 응답성 설정" Address="0x12B0" Unit="" Length="2" PortType="None" InitValue="3000" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Current Regulator I Gain" ParamType="Short" Value="198" AccessMode="ReadWrite" Description="정상 상태의 전류 오차 응답성 설정" Address="0x12B1" Unit="" Length="2" PortType="None" InitValue="198" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Velocity Regulator P Gain" ParamType="Short" Value="4000" AccessMode="ReadWrite" Description="속도 제어 응답성 설정" Address="0x12B2" Unit="" Length="2" PortType="None" InitValue="4000" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Velocity Regulator I Gain" ParamType="Short" Value="100" AccessMode="ReadWrite" Description="정상 상태의 속도 오차 응답성 설정" Address="0x12B3" Unit="" Length="2" PortType="None" InitValue="100" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Position Regulator P Gain" ParamType="Short" Value="50" AccessMode="ReadWrite" Description="위치 제어 응답성 설정" Address="0x12B4" Unit="" Length="2" PortType="None" InitValue="50" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Position Regulator I Gain" ParamType="Short" Value="10" AccessMode="ReadWrite" Description="정상 상태의 위치 오차 응답성 설정" Address="0x12B6" Unit="" Length="2" PortType="None" InitValue="10" Min="0" Max="32767" Default="True" />
+        <Parameter Name="Vibration damping ratio" ParamType="Short" Value="0" AccessMode="ReadWrite" Description="진동 억제용 Gain 감쇠비 " Address="0x12C2" Unit="0.1%" Length="2" PortType="None" InitValue="0" Min="0" Max="999" Default="True" />
+      </Category>
+    </Category>
+    <Category Name="Monitor" Value="MonitoringContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="U Phase Current" ParamType="Short" Value="0" AccessMode="ReadOnly" Description="모터의 U상 전류를 표시" Address="0x126B" Unit="mA" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="V Phase Current" ParamType="Short" Value="0" AccessMode="ReadOnly" Description="모터의 V상 전류를 표시" Address="0x126C" Unit="mA" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="W Phase Current" ParamType="Short" Value="0" AccessMode="ReadOnly" Description="모터의 W상 전류를 표시" Address="0x126D" Unit="mA" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Motor Utilization" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정격 전류 대비 모터의 사용 부하율을 표시" Address="0x1260" Unit="%" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Drive Utilization" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="Max 전류 대비 드라이브의 사용 부하율을 표시" Address="0x1261" Unit="%" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="LMMT Encoder Valid" ParamType="Enum" Value="2" AccessMode="ReadOnly" Description="Encoder의 Valid 값을 표시" Address="0x1272" Unit="" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True">
+          <EnumEntry Value="0" DisplayName="A Off B Off" />
+          <EnumEntry Value="1" DisplayName="A On B Off" />
+          <EnumEntry Value="2" DisplayName="A Off B On" />
+          <EnumEntry Value="3" DisplayName="A On B On" />
+        </Parameter>
+        <Parameter Name="Error Code" ParamType="Enum" Value="0" AccessMode="ReadOnly" Description="현재 발생한 에러를 표시" Address="0x1270" Unit="" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True">
+          <EnumEntry Value="0" DisplayName="No Error" />
+          <EnumEntry Value="18" DisplayName="Break In" />
+          <EnumEntry Value="32" DisplayName="PWC Open" />
+          <EnumEntry Value="36" DisplayName="Over Temp" />
+          <EnumEntry Value="39" DisplayName="DRV Over Current" />
+          <EnumEntry Value="50" DisplayName="ENC Error" />
+          <EnumEntry Value="64" DisplayName="Over Voltage" />
+          <EnumEntry Value="65" DisplayName="Under Voltage" />
+          <EnumEntry Value="66" DisplayName="Over Current" />
+          <EnumEntry Value="67" DisplayName="Two Pallet" />
+        </Parameter>
+        <Parameter Name="Position Actual Value" ParamType="Integer" Value="-150452" AccessMode="ReadOnly" Description="현재 위치 측정값을 표시" Address="0x1264" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Velocity Actual Value" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="현재 속도 측정값을 표시" Address="0x1267" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="BusVoltage" ParamType="Short" Value="297" AccessMode="ReadOnly" Description="서보 드라이브의 DC Bus 전압 측정값을 표시" Address="0x1273" Unit="V" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Heat Temperature" ParamType="Short" Value="27" AccessMode="ReadOnly" Description="서보 드라이브의 IPM 측정 온도를 표시" Address="0x1274" Unit="℃" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="AC Power" ParamType="Enum" Value="1" AccessMode="ReadOnly" Description="AC 전원의 입력 상태를 표시" Address="0x1275" Unit="" Length="1" PortType="None" InitValue="" Min="-1" Max="-1" Default="True">
+          <EnumEntry Value="0" DisplayName="Power Off" />
+          <EnumEntry Value="1" DisplayName="Power On" />
+        </Parameter>
+        <Parameter Name="AC Hz" ParamType="Short" Value="60" AccessMode="ReadOnly" Description="AC 전원의 Hz 측정값을 표시" Address="0x1276" Unit="Hz" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+      </Category>
+    </Category>
+    <Category Name="Faults" Value="FaultContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="Fault History #1" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x1279" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Fault History #2" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x127A" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Fault History #3" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x127B" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Fault History #4" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x127C" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Fault History #5" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x127D" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Fault History #6" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x127E" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Fault History #7" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x127F" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Fault History #8" ParamType="String" Value="" AccessMode="ReadOnly" Address="0x1280" Unit="" Length="20" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+      </Category>
+    </Category>
+    <Category Name="Jog Mode" Value="ParameterContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="Jog Speed" ParamType="Short" Value="50" AccessMode="ReadWrite" Description="UserManualContentParam1 정보" Address="0x12BE" Unit="mm/s" Length="2" PortType="None" InitValue="50" Min="0" Max="1000" Default="True" />
+        <Parameter Name="Jog Accel/Decel" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="UserManualContentParam1 정보" Address="0x12C0" Unit="ms" Length="2" PortType="None" InitValue="500" Min="0" Max="6000" Default="True" />
+      </Category>
+    </Category>
+    <Category Name="Oscilloscope" Value="OscilloscopeContent">
+      <Category Name="파라미터 정보" />
+    </Category>
+    <Category Name="Measure" Value="MeasureContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="1st Current Regulator P Gain" ParamType="Short" Value="4000" AccessMode="ReadWrite" Description="전류 제어 응답성 설정" Address="0x12B0" Unit="" Length="2" PortType="None" InitValue="3000" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Current Regulator I Gain" ParamType="Short" Value="100" AccessMode="ReadWrite" Description="정상 상태의 전류 오차 응답성 설정" Address="0x12B1" Unit="" Length="2" PortType="None" InitValue="198" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Velocity Regulator P Gain" ParamType="Short" Value="3000" AccessMode="ReadWrite" Description="속도 제어 응답성 설정" Address="0x12B2" Unit="" Length="2" PortType="None" InitValue="4000" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Velocity Regulator I Gain" ParamType="Short" Value="100" AccessMode="ReadWrite" Description="정상 상태의 속도 오차 응답성 설정" Address="0x12B3" Unit="" Length="2" PortType="None" InitValue="100" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Position Regulator P Gain" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="위치 제어 응답성 설정" Address="0x12B4" Unit="" Length="2" PortType="None" InitValue="50" Min="0" Max="32767" Default="True" />
+        <Parameter Name="1st Position Regulator I Gain" ParamType="Short" Value="8" AccessMode="ReadWrite" Description="정상 상태의 위치 오차 응답성 설정" Address="0x12B6" Unit="" Length="2" PortType="None" InitValue="10" Min="0" Max="32767" Default="True" />
+        <Parameter Name="Vibration damping ratio" ParamType="Short" Value="0" AccessMode="ReadWrite" Description="진동 억제용 Gain 감쇠비 " Address="0x12C2" Unit="0.1%" Length="2" PortType="None" InitValue="0" Min="0" Max="999" Default="True" />
+        <Parameter Name="LMMT MOSI" ParamType="Short" Value="0" AccessMode="ReadWrite" Description="LMMT MOSI" Address="0x12C1" Unit="" Length="2" PortType="None" InitValue="0" Min="0" Max="255" Default="True" />
+        <Parameter Name="Jog Speed" ParamType="Short" Value="50" AccessMode="ReadWrite" Description="UserManualContentParam1 정보" Address="0x12BE" Unit="mm/s" Length="2" PortType="None" InitValue="50" Min="0" Max="1000" Default="True" />
+        <Parameter Name="Jog Accel/Decel" ParamType="Short" Value="500" AccessMode="ReadWrite" Description="UserManualContentParam1 정보" Address="0x12C0" Unit="ms" Length="2" PortType="None" InitValue="500" Min="0" Max="6000" Default="True" />
+      </Category>
+    </Category>
+    <Category Name="Manual" Value="UserManualContent">
+      <Category Name="파라미터 정보">
+        <Category Name="Tuning">
+          <Parameter Name="1st Current Regulator P Gain" ParamType="Short" Value="3000" AccessMode="ReadWrite" Description="전류 제어 응답성 설정" Address="0x12B0" Unit="" Length="2" PortType="None" InitValue="3000" Min="0" Max="32767" Default="True" />
+          <Parameter Name="1st Current Regulator I Gain" ParamType="Short" Value="198" AccessMode="ReadWrite" Description="정상 상태의 전류 오차 응답성 설정" Address="0x12B1" Unit="" Length="2" PortType="None" InitValue="198" Min="0" Max="32767" Default="True" />
+        </Category>
+        <Category Name="Oscilloscope">
+          <Parameter Name="1st Current Regulator P Gain" ParamType="Short" Value="3000" AccessMode="ReadWrite" Description="전류 제어 응답성 설정" Address="0x12B0" Unit="" Length="2" PortType="None" InitValue="3000" Min="0" Max="32767" Default="True" />
+          <Parameter Name="1st Current Regulator I Gain" ParamType="Short" Value="199" AccessMode="ReadWrite" Description="정상 상태의 전류 오차 응답성 설정" Address="0x12B1" Unit="" Length="2" PortType="None" InitValue="198" Min="0" Max="32767" Default="True" />
+        </Category>
+      </Category>
+    </Category>
+    <Category Name="Encoder" Value="ParameterContent">
+      <Category Name="파라미터 정보">
+        <Parameter Name="Encoder Data" ParamType="Short" Value="12875" AccessMode="ReadOnly" Description="엔코더의 위치 데이터를 표시" Address="0x1262" Unit="Counts" Length="2" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Position Error" ParamType="Integer" Value="471875" AccessMode="ReadOnly" Description="타겟 위치와의 오차를 표시" Address="0x1265" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Target Position" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="타겟 위치를 표시" Address="0x1263" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Accel Distance" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="전체 동작에서 가속에 할당된 거리를 표시" Address="0x1277" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Decel Distance" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="전체 동작에서 감속에 할당된 거리를 표시" Address="0x1278" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder resolution" ParamType="Integer" Value="27000" AccessMode="ReadOnly" Description="엔코더 분해능" Address="0x1281" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder A Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 첫번째 엔코더 데이터" Address="0x1282" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder B Data" ParamType="Integer" Value="12879" AccessMode="ReadOnly" Description="정방향 두번째 엔코더 데이터" Address="0x1283" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder Diff Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="첫번째 엔코더와 두번째 엔코더의 데이터차이" Address="0x1284" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder A Valid Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 첫번째 엔코더 Valid 데이터" Address="0x1285" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder A Left Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 첫번째 엔코더 Left 데이터" Address="0x1286" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder A U Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 첫번째 엔코더 U 데이터" Address="0x1289" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder A V Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 첫번째 엔코더 V 데이터" Address="0x1288" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder A W Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 첫번째 엔코더 W 데이터" Address="0x1287" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder A Right Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 첫번째 엔코더 Right 데이터" Address="0x128A" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder B Valid Data" ParamType="Integer" Value="1" AccessMode="ReadOnly" Description="정방향 두번째 엔코더 Valid 데이터" Address="0x128B" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder B Left Data" ParamType="Integer" Value="1" AccessMode="ReadOnly" Description="정방향 두번째 엔코더 Left 데이터" Address="0x128C" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder B U Data" ParamType="Integer" Value="0" AccessMode="ReadOnly" Description="정방향 두번째 엔코더 U 데이터" Address="0x128F" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder B V Data" ParamType="Integer" Value="1" AccessMode="ReadOnly" Description="정방향 두번째 엔코더 V 데이터" Address="0x128E" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder B W Data" ParamType="Integer" Value="1" AccessMode="ReadOnly" Description="정방향 두번째 엔코더 W 데이터" Address="0x128D" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder B Right Data" ParamType="Integer" Value="1" AccessMode="ReadOnly" Description="정방향 두번째 엔코더 Right 데이터" Address="0x1290" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True" />
+        <Parameter Name="Encoder PHS Position" ParamType="Enum" Value="65536" AccessMode="ReadOnly" Description="PHS 보드 위치 데이터" Address="0x1291" Unit="Counts" Length="4" PortType="None" InitValue="" Min="-1" Max="-1" Default="True">
+          <EnumEntry Value="0" DisplayName="00000" />
+          <EnumEntry Value="1" DisplayName="00001" />
+          <EnumEntry Value="17" DisplayName="00011" />
+          <EnumEntry Value="273" DisplayName="00111" />
+          <EnumEntry Value="4369" DisplayName="01111" />
+          <EnumEntry Value="69905" DisplayName="11111" />
+          <EnumEntry Value="65536" DisplayName="10000" />
+          <EnumEntry Value="69632" DisplayName="11000" />
+          <EnumEntry Value="69888" DisplayName="11100" />
+          <EnumEntry Value="69904" DisplayName="11110" />
+        </Parameter>
+      </Category>
+    </Category>
+  </Category>
+</Category>

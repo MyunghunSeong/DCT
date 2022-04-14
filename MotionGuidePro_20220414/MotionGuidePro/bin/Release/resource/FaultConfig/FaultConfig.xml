@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FaultConfig>
+  <History Key="E017 FOCERR" Value="연속 정격을 초과하여 동작하였습니다."/>
+  <History Key="E064 OVVOLT" Value="DC 버스 과전압이 감지 되었습니다."/>
+  <History Key="E065 UDVOLT" Value="DC 버스 저전압이 감지 되었습니다."/>
+  <History Key="E036 OVTEMP" Value="IPM의 온도가 너무 높습니다."/>
+  <History Key="E018 SCOVER" Value="IPM의 과전류 출력이 감지 되었습니다."/>
+  <History Key="E032 PCOPEN" Value="파워 커넥터가 연결되지 않았습니다."/>
+  <History Key="E039 DCOVER" Value="누적 관전류가 감지 되었습니다."/>
+  <History Key="E050 ENCERR" Value="엔코더와의  통신에 실패 하였습니다."/>
+</FaultConfig>

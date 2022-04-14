@@ -1,0 +1,1558 @@
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Images.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Seven.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Dark.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Win10Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csprojAssemblyReference.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\MeasureSettingDialog.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\Setting.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\MeasureSettingDialog.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\App.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\App.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Images.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Seven.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Blue.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Dark.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Win10Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csprojAssemblyReference.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\MeasureSettingDialog.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\Setting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\MeasureSettingDialog.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\App.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\App.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211108\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Images.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Seven.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Blue.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Dark.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Win10Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.csprojAssemblyReference.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\MeasureSettingDialog.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Popup\Setting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\MeasureSettingDialog.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\App.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\App.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro_20211115\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\Setting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\App.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Images.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Seven.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Blue.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Dark.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Win10Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\App.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Themes\generic.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Images.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Seven.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Blue.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Dark.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Win10Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.csprojAssemblyReference.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Popup\Setting.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\App.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\App.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\Themes\generic.baml
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\BackUp\MotionGuidePro_20220120\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\MotionGuidePro.csprojAssemblyReference.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro - 복사본\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.AssemblyReference.cache
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\Setting.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\App.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\App.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\Themes\generic.baml
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+E:\backup\개발자료\DCT\UI관련 자료\MotionGuidePro (11)\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Images.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Seven.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Blue.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Dark.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Light.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Win10Light.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.csprojAssemblyReference.cache
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\Setting.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\App.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\App.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Cursor\CursorControl.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\Themes\generic.baml
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\MotionGuidePro (11)(220218수정)\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ChangeAxisColor.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Setting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ChangeAxisColor.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\App.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Images.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Seven.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Blue.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Dark.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.VS2019Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Themes.Win10Light.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\App.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Themes\generic.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\SelectMeasureParam.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\MeasureControl.baml
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\SelectMeasureParam.g.cs
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\MeasureControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.AssemblyReference.cache
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\ChangeAxisColor.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\Measure\SelectMeasureParam.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\Setting.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\Measure\MeasureControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\ChangeAxisColor.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\Measure\SelectMeasureParam.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\Measure\MeasureControl.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\App.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\App.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\Themes\generic.baml
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+E:\backup\개발자료\DCT\UI관련 자료\확인필요\MotionGuidePro (7)\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\MotionGuidePro.exe.config
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\MotionGuidePro.exe
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\MotionGuidePro.pdb
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\System.Windows.Interactivity.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Data.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Mvvm.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Accordion.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Core.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Docking.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Grid.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Layout.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.LayoutControl.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Map.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.PropertyGrid.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Ribbon.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.Expression.Interactions.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\System.Windows.Interactivity.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Controls.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Map.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.Printing.v21.1.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Xpf.DocumentViewer.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.RichEdit.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\DevExpress.Office.v21.1.Core.xml
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Core.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Core.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Core.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Core.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Docking.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Docking.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Docking.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Docking.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Grid.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Ribbon.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Controls.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Controls.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Controls.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Controls.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Map.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Map.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Map.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Map.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.Printing.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.Printing.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.Printing.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.Printing.v21.1.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.RichEdit.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.RichEdit.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.RichEdit.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.RichEdit.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\de\DevExpress.Office.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\es\DevExpress.Office.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ja\DevExpress.Office.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\bin\Debug\ru\DevExpress.Office.v21.1.Core.resources.dll
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.AssemblyReference.cache
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ChangeAxisColor.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\SelectMeasureParam.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Setting.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\TriggerSetting.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\MeasureControl.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\MeasurementControl.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\TriggerControl.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\YAxis\YAxisControl.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Main\MainWindow.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ChangeAxisColor.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\SelectMeasureParam.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\SelectionParameter.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Setting.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\TriggerSetting.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\Measure\MeasureControl.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\App.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.cache
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro_MarkupCompile.lref
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\App.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\OscilloscopeControl.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Graph\Control\XAxis\SignalDisplayControl.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Main\MainWindow.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\ParameterModel\ParameterView.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\ManualScaleSetting.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Popup\SelectionParameter.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\Themes\generic.baml
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.g.resources
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.Properties.Resources.resources
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.GenerateResource.cache
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CoreCompileInputs.cache
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csproj.CopyComplete
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.exe
+G:\성명훈\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.pdb
+C:\Users\성명훈\Desktop\DCT\NowWorking\MotionGuidePro\MotionGuidePro\obj\Debug\MotionGuidePro.csprojAssemblyReference.cache

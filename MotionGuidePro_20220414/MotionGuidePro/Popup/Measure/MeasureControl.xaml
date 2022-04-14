@@ -1,0 +1,144 @@
+﻿<UserControl x:Class="CrevisLibrary.MeasureControl" Loaded="MeasureControl_OnLoaded"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="auto" Width="auto">
+    <UserControl.Resources>
+        <Style x:Key="TabItemTemplate" TargetType="{x:Type TabItem}">
+            <Style.Setters>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type TabItem}">
+                            <Border Name="border" BorderBrush="LightGray" BorderThickness="1" Background="Transparent" CornerRadius="0" Margin="0">
+                                <ContentPresenter Name="presenter" Content="{TemplateBinding Header}" Margin="3"
+                                             TextBlock.FontFamily="Binggrae" TextBlock.FontSize="{TemplateBinding FontSize}"
+                                             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="BorderBrush" Value="{Binding ElementName=tabControl, Path=BorderBrush}" TargetName="border"/>
+                                    <Setter Property="Background" Value="White" TargetName="border"/>
+                                    <Setter Property="BorderThickness" Value="1 0 1 1" TargetName="border"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style.Setters>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <TabControl Name="tabControl" TabStripPlacement="Bottom" Background="White">
+            <TabItem Style="{StaticResource TabItemTemplate}" Header="Measure" FontSize="16">
+                <TabItem.Content>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel Orientation="Vertical" Name="mainStack">
+                            <Border Name="MeasurePane" BorderBrush="LightGray" BorderThickness="2" CornerRadius="3" Height="30">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Measure" FontSize="16"/>
+                                    <Button Name="MeasureBtn" Style="{StaticResource CustomButtonStyle}" Content=" + " BorderThickness="0"
+                                        BorderBrush="Red" FontSize="16" Click="MeasureAddBtn_OnClick" IsEnabled="{Binding Path=IsButtonEnabled}"/>
+                                </StackPanel>
+                            </Border>
+                            <!--<Grid Grid.Row="1" Name="aaa">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="4*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>-->
+
+                            <!-- 채널 정보와 스케일 정보 표시 -->
+                            <!-- <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                                    <TextBlock Text="x Channel" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+                                </Border>
+                                <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0 1 1 1">
+                                    <TextBlock Text="x / div" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+                                </Border>
+                            </Grid>-->
+
+                            <!-- 선택한 채널의 시그널에 대한 정보 표시 -->
+                            <!--<Grid Grid.Row="1" Grid.Column="0">
+                                <ListView Name="dataLstView" ItemsSource="{Binding Path=DataList}" FontSize="12">
+                                    <ListView.View>
+                                        <GridView>
+                                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Path=Name}"/>
+                                            <GridViewColumn Header="Value" DisplayMemberBinding="{Binding Path=Value}"/>
+                                            <GridViewColumn Header="Unit" DisplayMemberBinding="{Binding Path=Unit}"/>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+                            </Grid>-->
+
+                            <!-- 선택한 채널의 커서에 대한 정보 표시 -->
+                            <!--<Grid Grid.Row="1" Grid.Column="1">
+                                <ListView Name="CursorLstView" ItemsSource="{Binding Path=CursorList}" FontSize="12">
+                                    <ListView.View>
+                                        <GridView>
+                                            <GridViewColumn Header="Pos" DisplayMemberBinding="{Binding Path=Position}"/>
+                                            <GridViewColumn Header="Time" DisplayMemberBinding="{Binding Path=Time}"/>
+                                            <GridViewColumn Header="Data" DisplayMemberBinding="{Binding Path=Data}"/>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+                            </Grid>-->
+                            <!--</Grid>-->
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem.Content>
+            </TabItem>
+            <TabItem Style="{StaticResource TabItemTemplate}" Header="Turning" FontSize="14">
+                <TabItem.Content>
+                    <Grid Name="TunningGrid">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="5"/>
+                            <RowDefinition/>
+                            <!--<RowDefinition Height="50"/>-->
+                        </Grid.RowDefinitions>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Border Name="TunningPane" BorderBrush="LightGray" BorderThickness="2" CornerRadius="3" Height="30">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Tunning" FontSize="16"/>
+                                    <Button Name="TunningBtn" Style="{StaticResource CustomButtonStyle}" Content=" + " BorderThickness="0"
+                                        BorderBrush="Red" FontSize="16" Click="SelectParamBtn_OnClick" IsEnabled="{Binding Path=IsButtonEnabled}"/>
+                                </StackPanel>
+                            </Border>
+
+                            <Border Grid.Column="1" BorderBrush="LightGray" BorderThickness="2" CornerRadius="3" Margin="2 0 0 0">
+                                <Button Content="Save Data" Click="SaveParamBtn_OnClick" BorderThickness="0"
+                                  Background="{Binding ElementName=TunningPane, Path=Background}"/>
+                            </Border>
+                        </Grid>
+
+                        <!--
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Button Content="Save Data" Grid.Column="0" Margin="5" Click="SaveParamBtn_OnClick"/>
+                            <Button Content="Communication" Grid.Column="1" Margin="5" Click="CommBtn_OnClick"/>
+                            <Button Content="Select Parameter" Grid.Column="2" Margin="5" Click="SelectParamBtn_OnClick"/>
+                        </Grid>
+                        -->
+                    </Grid>
+                </TabItem.Content>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

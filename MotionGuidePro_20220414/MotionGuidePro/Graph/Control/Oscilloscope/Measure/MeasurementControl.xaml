@@ -1,0 +1,165 @@
+﻿<UserControl x:Class="DCT_Graph.MeasurementControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Loaded="MeasurementControl_OnLoaded"
+             Height="auto" Width="auto">
+    <UserControl.Resources>
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Column="0">
+                <TextBlock Text="{Binding Path=AxisName}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" FontWeight="Bold"/>
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="0 1 1 1" Grid.Column="1">
+                <TextBlock Text="{Binding Path=Unit}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" FontWeight="Bold"/>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <!--<Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>-->
+
+            <ListView Name="BasicInfoView" ItemsSource="{Binding Path=BasicInfoList}" FontSize="11"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="Name" Width="{Binding NameWidth1}">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=Name1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Value" Width="{Binding ValueWidth1}" DisplayMemberBinding="{Binding Path=Value1}"/>
+                            <GridViewColumn Header="Name" Width="{Binding NameWidth2}">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=Name2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Value" Width="{Binding ValueWidth2}" DisplayMemberBinding="{Binding Path=Value2}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+            </ListView>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border BorderBrush="Black" BorderThickness="1" Background="{Binding ElementName=BasicInfoView, Path=Background}">
+                <TextBlock Text="Cursor1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" FontWeight="Bold"/>
+            </Border>
+            <Border BorderBrush="Black" Background="{Binding ElementName=BasicInfoView, Path=Background}" BorderThickness="0 1 1 1" Grid.Column="1">
+                <TextBlock Text="Cursor2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" FontWeight="Bold"/>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ListView Name="lstView2" ItemsSource="{Binding Path=CursorList1}" FontSize="11"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="Position" Width="{Binding Path=PosWidthCursor1}">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=PosOfCursor}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Time" Width="{Binding Path=TimeWidthCursor1}">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Name="Time0"  Text="{Binding Path=TimeOfCursor}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        <DataTemplate.Triggers>
+                                            <DataTrigger Binding="{Binding Path=TimeOfCursor}" Value="-1">
+                                                <Setter Property="Text" Value="{x:Null}" TargetName="Time0"/>
+                                            </DataTrigger>
+                                        </DataTemplate.Triggers>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Data" Width="{Binding Path=DataWidthCursor1}" DisplayMemberBinding="{Binding Path=DataOfCursor}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+            </ListView>
+
+            <ListView Name="lstView3" ItemsSource="{Binding Path=CursorList2}" Grid.Column="1" FontSize="11"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="Position" Width="{Binding Path=PosWidthCursor2}">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=PosOfCursor}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Time" Width="{Binding Path=TimeWidthCursor2}">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Name="Time0"  Text="{Binding Path=TimeOfCursor}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        <DataTemplate.Triggers>
+                                            <DataTrigger Binding="{Binding Path=TimeOfCursor}" Value="-1">
+                                                <Setter Property="Text" Value="{x:Null}" TargetName="Time0"/>
+                                            </DataTrigger>
+                                        </DataTemplate.Triggers>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Data" Width="{Binding Path=DataWidthCursor2}" DisplayMemberBinding="{Binding Path=DataOfCursor}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+            </ListView>
+        </Grid>
+    </Grid>
+</UserControl>

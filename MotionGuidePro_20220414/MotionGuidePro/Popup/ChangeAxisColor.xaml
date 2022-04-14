@@ -1,0 +1,59 @@
+﻿<Window x:Class="CrevisLibrary.ChangeAxisColor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Loaded="ChangeAxisColor_OnLoaded" ContentRendered="ChangeAxisColor_OnRendered"
+        KeyDown="ChangeAxisColor_OnKeyDown"
+        Title="Change Axis Color" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <ComboBox Name="ChanneComboBox" Grid.Row="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                  Margin="5" SelectionChanged="ComboBox_SelectionChanged" Background="White" FontSize="16"
+                  SelectedIndex="0">
+            <ComboBoxItem>1Channel</ComboBoxItem>
+            <ComboBoxItem>2Channel</ComboBoxItem>
+            <ComboBoxItem>3Channel</ComboBoxItem>
+            <ComboBoxItem>4Channel</ComboBoxItem>
+            <ComboBoxItem>5Channel</ComboBoxItem>
+        </ComboBox>
+
+        <Border Grid.Row="1" BorderBrush="LightGray" BorderThickness="2" Margin="3">
+            <UniformGrid Name="ColorPalette" Grid.Row="1" Rows="2" Columns="7"/>
+        </Border>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Color Name : " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+            <TextBlock Name="ColorNameText" Grid.Column="1" VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Selected Color : " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+            <Rectangle Name="CurrentRect" Grid.Column="1" VerticalAlignment="Center" Width="220" Height="25"/>
+        </Grid>
+
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Style="{StaticResource CustomButtonStyle}" Content="OK" Grid.Column="0" Click="OKBtn_OnClick"/>
+            <Button Style="{StaticResource CustomButtonStyle}" Content="Cancel" Grid.Column="1" Click="CancelBtn_OnClick"/>
+        </Grid>
+    </Grid>
+</Window>

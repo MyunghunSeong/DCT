@@ -1,0 +1,92 @@
+﻿<UserControl x:Class="DCT_Graph.TriggerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="auto" Width="auto">
+    <UserControl.Resources>
+        <Style x:Key="InspectListCheckBoxStyle" TargetType="{x:Type CheckBox}">
+            <Style.Setters>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type CheckBox}">
+                            <Border Name="border" Background="Transparent" CornerRadius="3">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="1.5*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Image Name="img" Source="../../../../../ICon/Check.ico" Width="20" Height="20" Grid.Row="0"/>
+                                    <ContentPresenter Name="presenter" Content="DISABLED" HorizontalAlignment="Center"
+                                      VerticalAlignment="Center" TextBlock.FontSize="{TemplateBinding FontSize}" Grid.Row="1"
+                                      TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                                </Grid>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect" TargetName="border">
+                                        <Setter.Value>
+                                            <DropShadowEffect ShadowDepth="3" BlurRadius="5" Color="Gray" Opacity="0.5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter Property="Source" Value="../../../../../ICon/Check.ico" TargetName="img"/>
+                                    <Setter Property="Content" Value="ENABLED" TargetName="presenter"/>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="False">
+                                    <Setter Property="Source" Value="../../../../../ICon/UnCheck.ico" TargetName="img"/>
+                                    <Setter Property="Content" Value="DISABLED" TargetName="presenter"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style.Setters>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <!-- 트리거 채널 선택 -->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="25"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Trigger" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"
+                                   FontWeight="Bold"/>
+                <ComboBox Name="combo" VerticalContentAlignment="Center" Background="Transparent" BorderBrush="LightGray" BorderThickness="2"
+                            ItemsSource="{Binding Path=CurrentSelectedAxisChannelList}" SelectedIndex="{Binding Path=SelectChannel}"
+                            Grid.Column="1" Margin="5" SelectionChanged="TriggerBox_OnSelectionChanged" FontWeight="Bold" Foreground="Black"
+                          IsEnabled="{Binding Path=IsControlEnabled}"/>
+                <Button Style="{StaticResource ImgButtonStyle}" Grid.Column="2" Click="TriggerSettingBtn_OnClick"
+                        IsEnabled="{Binding Path=IsControlEnabled}">
+                    <Button.Content>
+                        <Image Source="../../../../../ICon/settingICO.ico" Width="20" Height="20"/>
+                    </Button.Content>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border BorderBrush="LightGray" BorderThickness="0 1 1 0" Grid.Column="0">
+                    <CheckBox Style="{StaticResource InspectListCheckBoxStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"
+                                      Foreground="Black" FontWeight="Bold" IsChecked="{Binding Path=IsEnable}"
+                              IsEnabled="{Binding Path=IsControlEnabled}"/>
+                </Border>
+
+                <Border BorderBrush="LightGray" BorderThickness="0 1 1 0" Grid.Column="1">
+                    <TextBlock Text="상태표시" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

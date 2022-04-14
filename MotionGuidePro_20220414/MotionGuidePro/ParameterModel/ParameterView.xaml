@@ -1,0 +1,534 @@
+﻿<UserControl x:Class="CrevisLibrary.ParameterView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:xctk="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+             xmlns:tree="clr-namespace:Aga.Controls.Tree;assembly=Aga.Controls"
+             xmlns:local="clr-namespace:CrevisLibrary"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:s="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d"
+             x:Name="uc"
+             d:DesignHeight="600" d:DesignWidth="1000">
+
+    <UserControl.Resources>
+        <!-- CheckBox Template -->
+        <Style x:Key="InspectListCheckBoxStyle" TargetType="{x:Type CheckBox}">
+            <Style.Setters>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type CheckBox}">
+                            <Border Name="border" Background="Transparent" CornerRadius="3" Width="20" Height="20">
+                                <Image Name="img" Source="../../ICon/Check.ico"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect" TargetName="border">
+                                        <Setter.Value>
+                                            <DropShadowEffect ShadowDepth="3" BlurRadius="5" Color="Gray" Opacity="0.5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter Property="Source" Value="../../ICon/Check.ico" TargetName="img"/>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="False">
+                                    <Setter Property="Source" Value="../../ICon/UnCheck.ico" TargetName="img"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style.Setters>
+        </Style>
+
+        <local:MathConverter x:Key="MathConverter"/>
+        <!-- Feature Name Converter-->
+        <local:RegImageConverter x:Key="RegImageConverter"/>
+
+        <!-- Category DataTemplate -->
+        <DataTemplate x:Key="CategoryDataTemplate">
+            <!-- shseol85: 현재 아래 TextBlock은 쓰이지 않음 reserved 용도-->
+            <Border BorderBrush="LightGray" BorderThickness="1 0 0 0" Margin="-6 -3">
+                <TextBlock Text="{Binding Value}" HorizontalAlignment="Stretch" Margin="6 3"/>
+            </Border>
+        </DataTemplate>
+
+        <!-- String DataTemplate -->
+        <DataTemplate x:Key="StringDataTemplate">
+            <Border BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <TextBox Text="{Binding StrValue,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Stretch" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="8 3"
+                  BorderBrush="Black" BorderThickness="1" />
+            </Border>
+        </DataTemplate>
+
+        <!-- DataTemplate for Booleans -->
+        <DataTemplate x:Key="BooleanDataTemplate">
+            <Border BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <ToggleButton Name="BoolBtn" Foreground="Black"
+               BorderBrush="Green" BorderThickness="1" IsChecked="{Binding Path=BoolValue}" Margin="8 3"/>
+            </Border>
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding Path=BoolValue}" Value="true">
+                    <Setter Property="Content" Value="Enable" TargetName="BoolBtn"/>
+                    <Setter Property="BorderBrush" Value="Green" TargetName="BoolBtn"/>
+                    <Setter Property="Foreground" Value="Green" TargetName="BoolBtn"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=BoolValue}" Value="false">
+                    <Setter Property="Content" Value="Disable" TargetName="BoolBtn"/>
+                    <Setter Property="BorderBrush" Value="Red" TargetName="BoolBtn"/>
+                    <Setter Property="Foreground" Value="Red" TargetName="BoolBtn"/>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+            <!--<CheckBox IsChecked="{Binding BoolValue}" Content="True" IsEnabled="{Binding IsEnable,Mode=OneWay}" 
+               local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>-->
+        </DataTemplate>
+
+        <!-- DataTemplate for Enums -->
+        <DataTemplate x:Key="EnumDataTemplate">
+            <Border BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <ComboBox ItemsSource="{Binding Path=EnumEntries}" SelectedValue="{Binding Path=EnumIntValue}"
+                      DisplayMemberPath="DisplayName" SelectedValuePath="EnumValue" Margin="8 3"
+                      HorizontalAlignment="Stretch"  IsEnabled="{Binding IsEnable,Mode=OneWay}" Foreground="Black"
+                      Style="{StaticResource CustomComboBoxStyle}" BorderBrush="LightGray" BorderThickness="1"
+                      local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+            </Border>
+        </DataTemplate>
+
+        <!-- DataTemplate for Enums ReadOnly -->
+        <DataTemplate x:Key="EnumDataReadOnlyTemplate">
+            <Border BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <TextBox IsReadOnly="True" Text="{Binding Path=EnumStrValue}" Margin="8 3" HorizontalAlignment="Stretch"
+                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"
+                  BorderBrush="LightGray" BorderThickness="1"/>
+            </Border>
+        </DataTemplate>
+
+        <!-- DataTemplate for Popup Enums -->
+        <DataTemplate x:Key="EnumPopupDataTemplate">
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+
+                <TextBox Grid.Row="0" Text="{Binding TextBoxString, UpdateSourceTrigger=PropertyChanged}" x:Name="tbPopup" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                    local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="PreviewMouseUp">
+                            <i:InvokeCommandAction Command="{Binding PreviewMouseUpCommand}" />
+                        </i:EventTrigger>
+                        <i:EventTrigger EventName="LostFocus">
+                            <i:InvokeCommandAction Command="{Binding LostFocusCommand}" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                    <TextBox.InputBindings>
+                        <KeyBinding Command="{Binding CmdTextBoxKeyDown}" Key="Down"/>
+                        <KeyBinding Command="{Binding CmdTextBoxKeyEnter}" Key="Enter"/>
+                    </TextBox.InputBindings>
+                </TextBox>
+
+                <Popup  Grid.Row="1" Placement="Bottom" IsOpen ="{Binding PopupIsOpen}" StaysOpen="{Binding IsFocused, ElementName=tbPopup, Mode=OneWay}"
+                        PlacementTarget="{Binding ElementName=tbPopup}">
+                    <ListView Grid.Column="0"  Focusable="True" MaxHeight="100"
+                              Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=Grid} ,Path=ActualWidth}"
+                              ItemsSource="{Binding SearchList}"
+                              SelectedItem="{Binding ListViewSelectedItem, UpdateSourceTrigger=PropertyChanged}"
+                              local:FocusExtension.IsFocused="{Binding ListViewFocus, UpdateSourceTrigger=PropertyChanged}"
+                              ScrollViewer.VerticalScrollBarVisibility="Auto"
+                              ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="PreviewMouseUp">
+                                <i:InvokeCommandAction Command="{Binding ListViewPreviewMouseUpCommand}"/>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                        <ListView.InputBindings>
+                            <KeyBinding Command="{Binding CmdListViewKeyDownEnter}" Key="Enter" />
+                        </ListView.InputBindings>
+                    </ListView>
+                </Popup>
+
+            </Grid>
+        </DataTemplate>
+
+        <!-- DataTemplate for Button -->
+        <DataTemplate x:Key="ButtonDataTemplate">
+            <Button Content="Excute"
+                    Command="{Binding Path=ExcuteButton}"
+                    CommandParameter="{Binding}" IsEnabled="{Binding IsEnable,Mode=OneWay}" 
+                    local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="IntegerPureDataTemplate">
+            <Border Name="border" BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <StackPanel Orientation="Vertical" LostFocus="Stack_LostFocus" Tag="{Binding}">
+                    <TextBlock Name="txtBlock" Text="{Binding IntValue, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" VerticalAlignment="Center"
+                           Margin="8 3" Visibility="{Binding Path=BlockVisible}"
+                           PreviewMouseLeftButtonDown="TextBlock_PreviewMouseLeftButtonDown" Tag="{Binding}"
+                           Width="{Binding RelativeSource={RelativeSource AncestorType=StackPanel}, Path=ActualWidth}"/>
+                    <TextBox Name="PureInteger" Text="{Binding IntValue, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Left" Tag="{Binding}"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="8 3" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                         BorderBrush="LightGray" BorderThickness="1" Visibility="{Binding Path=BoxVisible}"/>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+
+        <!-- DataTemplate for Pure Integer -->
+        <!--<DataTemplate x:Key="IntegerPureDataTemplate" >
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Border Name="border" BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                    <xctk:IntegerUpDown Name="PureInteger" Value="{Binding IntValue, UpdateSourceTrigger=PropertyChanged}" ParsingNumberStyle="Number" TextAlignment="Left" LostFocus="IntegerDown_LostFocus" Tag="{Binding}"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="8 3" ValueChanged="IntegerUpDown_ValueChanged"/>
+                    --><!-- Minimum="{Binding Path=ParamInfo.Min, Mode=OneWay}" Maximum="{Binding Path=ParamInfo.Max, Mode=OneWay}" Increment="{Binding Inc, Mode=OneWay}" IsEnabled="{Binding IsEnable,Mode=OneWay}"-->
+                    <!--<TextBox Text="{Binding IntValue, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Left" Tag="{Binding}" local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"
+                             Margin="6 3" PreviewKeyUp="TextBox_KeyUp"/>--><!--
+                </Border>
+            </Grid>
+        </DataTemplate>-->
+
+        <DataTemplate x:Key="IntegerHexDataTemplate">
+            <Border Name="border" BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <TextBox Name="PureInteger" Text="{Binding IntValue, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Left" Tag="{Binding}"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="8 3" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                         BorderBrush="LightGray" BorderThickness="1"/>
+            </Border>
+        </DataTemplate>
+
+        <!-- DataTemplate for Hex Integer -->
+        <!--<DataTemplate x:Key="IntegerHexDataTemplate" >
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Border BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                    <xctk:IntegerUpDown Value="{Binding IntValue}" ParsingNumberStyle="HexNumber" FormatString="{}0x{0:X8}" TextAlignment="Left" Tag="{Binding}"
+                                  Minimum="{Binding Path=ParamInfo.Min, Mode=OneWay}" Maximum="{Binding Path=ParamInfo.Max, Mode=OneWay}" Increment="{Binding Inc, Mode=OneWay}" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="6 3"/>
+                    --><!--<TextBox Text="{Binding IntValue}" TextAlignment="Left" Tag="{Binding}" local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"
+                             Margin="6 3"/>--><!--
+                </Border>
+            </Grid>
+        </DataTemplate>-->
+
+        <!-- DataTemplate for Linear Integer -->
+        <DataTemplate x:Key="IntegerLinearDataTemplate" >
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Slider Grid.Column="0" SelectionStart="0" SelectionEnd="100" Minimum="{Binding Min}" Maximum="{Binding Max}"
+                        TickFrequency="{Binding Inc}" IsSnapToTickEnabled="True" TickPlacement="None"
+                        Value="{Binding IntValue, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding IsEnable,Mode=OneWay}"/>
+
+                <xctk:IntegerUpDown Grid.Column="1" Value="{Binding IntValue}" 
+                                    Minimum="{Binding Min, Mode=OneWay}" Maximum="{Binding Max, Mode=OneWay}" Increment="{Binding Inc, Mode=OneWay}" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                                    local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+            </Grid>
+        </DataTemplate>
+
+        <!-- DataTemplate for Pure Short -->
+        <!--<DataTemplate x:Key="ShortPureDataTemplate" >
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Border Name="border" BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                    <xctk:ShortUpDown Value="{Binding ShortValue, UpdateSourceTrigger=PropertyChanged}" ParsingNumberStyle="Number" TextAlignment="Left" Tag="{Binding}"
+                                  Increment="{Binding Inc, Mode=OneWay}" IsEnabled="{Binding IsEnable,Mode=OneWay}" LostFocus="ShortUpDown_LostFocus"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="8 3" ValueChanged="ShortUpDown_ValueChanged"/>
+                </Border>
+            </Grid>
+        </DataTemplate>-->
+
+        <DataTemplate x:Key="ShortPureDataTemplate">
+            <Border Name="border" BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <StackPanel Orientation="Vertical" LostFocus="Stack_LostFocus" Tag="{Binding}">
+                    <TextBlock Name="txtBlock" Text="{Binding ShortValue, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" VerticalAlignment="Center"
+                           Margin="8 3" Visibility="{Binding Path=BlockVisible}"
+                           PreviewMouseLeftButtonDown="TextBlock_PreviewMouseLeftButtonDown" Tag="{Binding}"
+                           Width="{Binding RelativeSource={RelativeSource AncestorType=StackPanel}, Path=ActualWidth}"/>
+                    <TextBox Name="txtBox" Text="{Binding ShortValue, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Left" Tag="{Binding}"
+                         local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="8 3" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                         BorderBrush="LightGray" BorderThickness="1" TextChanged="TextBox_TextChanged" Visibility="{Binding Path=BoxVisible}"/>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ShortHexDataTemplate">
+            <Border Name="border" BorderBrush="LightGray" BorderThickness="0 0 1 0" Margin="-8 -3">
+                <TextBox Text="{Binding ShortValue, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Left" Tag="{Binding}"
+                         local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}" Margin="8 3" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                         BorderBrush="LightGray" BorderThickness="1"/>
+            </Border>
+        </DataTemplate>
+        
+        <!-- DataTemplate for Hex Short -->
+        <!--<DataTemplate x:Key="ShortHexDataTemplate" >
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <xctk:ShortUpDown Value="{Binding ShortValue}" ParsingNumberStyle="HexNumber" FormatString="{}0x{0:X4}" TextAlignment="Left"
+                                  Minimum="{Binding ParamInfo.Min, Mode=OneWay}" Maximum="{Binding ParamInfo.Max, Mode=OneWay}" Increment="{Binding Inc, Mode=OneWay}" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+            </Grid>
+        </DataTemplate>-->
+
+        <!-- DataTemplate for Lienar Short -->
+        <DataTemplate x:Key="ShortLienarDataTemplate" >
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Slider Grid.Column="0" SelectionStart="0" SelectionEnd="100" Minimum="{Binding Min}" Maximum="{Binding Max}"
+                        TickFrequency="{Binding Value}" IsSnapToTickEnabled="True" TickPlacement="None"
+                        Value="{Binding ShortValue, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding IsEnable,Mode=OneWay}" />
+                <xctk:ShortUpDown Grid.Column="1"
+                                  Value="{Binding ShortValue}"  Minimum="{Binding Min, Mode=OneWay}" Maximum="{Binding Max, Mode=OneWay}" 
+                                  Increment="{Binding Inc, Mode=OneWay}"  IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+            </Grid>
+        </DataTemplate>
+        <!-- DataTemplate for Byte -->
+        <DataTemplate x:Key="ByteDataTemplate" >
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <xctk:ByteUpDown  Value="{Binding ByteValue}" TextAlignment="Left"
+                                  ParsingNumberStyle="HexNumber" FormatString="X" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+            </Grid>
+        </DataTemplate>
+
+        <!-- DataTemplate for Byte Array-->
+        <DataTemplate x:Key="ByteArrayDataTemplate">
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <xctk:MaskedTextBox Value="{Binding ArrayValueString, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Left"
+                                    Mask="{Binding ByteArrayMask}" ValueDataType="{x:Type s:String}" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                                    local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="FloatDataTemplate">
+            <!--<TextBox Text="{Binding Value}" HorizontalAlignment="Stretch" />-->
+            <xctk:DoubleUpDown  Value="{Binding FloatValue}" FormatString="F3" Increment="0.1" 
+                  TextAlignment="Left" IsEnabled="{Binding IsEnable,Mode=OneWay}"
+                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="FileSelectTemplate" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Text="{Binding Path=FileSelectValue, UpdateSourceTrigger=PropertyChanged}" 
+                  HorizontalAlignment="Stretch" VerticalAlignment="Center" IsReadOnly="False"
+                  local:FocusExtension.IsFocused="{Binding IsFocuse, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Grid.Column="2" Style="{StaticResource CustomButtonStyle}"
+                   BorderBrush="LightGray" BorderThickness="2"
+                   Content="…" Click="FileSelectBtn_OnClick" Tag="{Binding}"/>
+            </Grid>
+        </DataTemplate>
+
+        <!-- DataTemplate Selector -->
+        <local:PropertyDataTemplateSelector x:Key="templateSelector"
+                                            CategoryDataTemplate        = "{StaticResource CategoryDataTemplate}"
+                                            StringDataTemplate          = "{StaticResource StringDataTemplate}"
+                                            BooleanDataTemplate         = "{StaticResource BooleanDataTemplate}"
+                                            IntegerPureDataTemplate     = "{StaticResource IntegerPureDataTemplate}"
+                                            IntegerHexDataTemplate      = "{StaticResource IntegerHexDataTemplate}"
+                                            IntegerLinearDataTemplate   = "{StaticResource IntegerLinearDataTemplate}"
+                                            EnumDataTemplate            = "{StaticResource EnumDataTemplate}"
+                                            ButtonDataTemplate          = "{StaticResource ButtonDataTemplate}" 
+                                            FloatDataTemplate           = "{StaticResource FloatDataTemplate}" 
+                                            EnumPopupDataTemplate       = "{StaticResource EnumPopupDataTemplate}"
+                                            EnumDataReadOnlyTemplate    = "{StaticResource EnumDataReadOnlyTemplate}"
+                                            ShortPureDataTemplate       = "{StaticResource ShortPureDataTemplate}"
+                                            ShortHexDataTemplate        = "{StaticResource ShortHexDataTemplate}"
+                                            ShortLienarDataTemplate     = "{StaticResource ShortLienarDataTemplate}"
+                                            ByteDataTemplate            = "{StaticResource ByteDataTemplate}"
+                                            ByteArrayDataTemplate       = "{StaticResource ByteArrayDataTemplate}"
+                                            FileSelectTemplate          = "{StaticResource FileSelectTemplate}"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <tree:TreeList Name="_tree" SelectedItem="{Binding Path=MySelectedItem}" SizeChanged="_tree_SizeChanged" 
+                       Tag="{Binding Path=ContentType}">
+            <tree:TreeList.InputBindings>
+                <KeyBinding Key="Tab" Command="{Binding Path=CmdTab}"/>
+                <KeyBinding Key="Tab" Modifiers="Shift" Command="{Binding Path=CmdShiftTab}"/>
+                <KeyBinding Key="Enter" Command="{Binding Path=CmdEnter}" CommandParameter="{Binding Path=MySelectedItem}"/>
+            </tree:TreeList.InputBindings>
+            <tree:TreeList.ItemContainerStyle>
+                <Style TargetType="tree:TreeListItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <EventSetter Event="PreviewMouseLeftButtonDown" Handler="OnClick"/>
+                    <EventSetter Event="Selected" Handler="TreeListItem_Selected"/>
+                    <Setter Property="BorderBrush" Value="LightGray"/>
+                    <Setter Property="BorderThickness" Value="0 0 0 1"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="true">
+                            <Setter Property="Background" Value="CornflowerBlue"/>
+                            <Setter Property="BorderBrush" Value="CornflowerBlue"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </tree:TreeList.ItemContainerStyle>
+            <tree:TreeList.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Width="{Binding Path=CheckParamWidth}">
+                            <GridViewColumnHeader Content="Select" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Name="SelectBorder" BorderBrush="LightGray" BorderThickness="1 0 0 0" Margin="-8 -3">
+                                        <CheckBox Name="check" Style="{StaticResource InspectListCheckBoxStyle}" IsChecked="{Binding Path=IsChecked}"
+                                            HorizontalAlignment="Center" VerticalAlignment="Center" Background="{Binding Path=CommEndBrush}" Margin="8 3"/>
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding ParamInfo.ParamType}" Value="0">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                        </DataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn x:Name="Column1" Width="{Binding Path=ParamNameWidth}">
+                            <GridViewColumnHeader Content="Name" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Name="NameBorder" BorderBrush="LightGray" Background="{Binding Path=CommEndBrush}" BorderThickness="1 0 1 0" Margin="-5 -3 -8 -3">
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="5 3 8 3">
+                                            <tree:RowExpander/>
+                                            <!--<Image Source="{Binding Converter={StaticResource RegImageConverter}}" Margin="0, 0, 5, 0" Width="25" Height="25"/>-->
+                                            <TextBlock Name="txt" Background="Transparent" Text="{Binding ParamInfo.ParamName, Mode=OneWay}" ToolTip="{Binding ParamInfo.Description,Mode=OneWay}"
+                                                    FontSize="15" FontWeight="Bold"/>
+                                        </StackPanel>
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding ParamInfo.ParamType}" Value="0">
+                                            <Setter Property="TextBlock.FontWeight" TargetName="txt" Value="Bold"/>
+                                        </DataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="{Binding Path=ParamValueWidth}" CellTemplateSelector="{StaticResource templateSelector}">
+                            <GridViewColumnHeader Content="Value" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                        </GridViewColumn>
+                        <GridViewColumn Width="{Binding Path=ParamInitValueWidth}">
+                            <GridViewColumnHeader Content="Default" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Name="InitValueBorder" BorderBrush="LightGray" Background="{Binding Path=CommEndBrush}" Margin="-8 -3" BorderThickness="0 0 1 0">
+                                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <TextBlock Name="InitValueText" Text="{Binding ParamInfo.InitValue}" FontSize="15"
+                                                       Margin="8 3"/>
+                                        </StackPanel>
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding ParamInfo.InitValue}" Value="">
+                                            <Setter Property="TextBlock.Text" Value="" TargetName="InitValueText"/>
+                                        </DataTrigger>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding ParamInfo.ParamType}" Value="0"/>
+                                                <Condition Binding="{Binding ParamInfo.InitValue}" Value=""/>
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="TextBlock.Text" Value="" TargetName="InitValueText"/>
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="{Binding Path=ParamUnitWidth}">
+                            <GridViewColumnHeader Content="Unit" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Name="UnitBorder" BorderBrush="LightGray" Background="{Binding Path=CommEndBrush}" Margin="-8 -3" BorderThickness="0 0 1 0">
+                                        <TextBlock Name="UnitText" Text="{Binding ParamInfo.Unit}" HorizontalAlignment="Left" VerticalAlignment="Center"
+                                                   FontSize="15" Margin="8 3"/>
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding ParamInfo.Unit}" Value="">
+                                            <Setter Property="TextBlock.Text" Value="" TargetName="UnitText"/>
+                                        </DataTrigger>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding ParamInfo.ParamType}" Value="0"/>
+                                                <Condition Binding="{Binding ParamInfo.InitValue}" Value=""/>
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="TextBlock.Text" Value="" TargetName="UnitText"/>
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="{Binding Path=ParamMinWidth, Converter={StaticResource MathConverter},ConverterParameter=@VALUE-5}">
+                            <GridViewColumnHeader Content="Min" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Name="MinBorder" BorderBrush="LightGray" Background="{Binding Path=CommEndBrush}" Margin="-8 -3" BorderThickness="0 0 1 0">
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <TextBlock Name="MinText" Text="{Binding ParamInfo.Min}" FontSize="15" Margin="8 3"/>
+                                        </StackPanel>
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding ParamInfo.ParamType}" Value="0">
+                                            <Setter Property="TextBlock.Text" Value="" TargetName="MinText"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ParamInfo.Min}" Value="-1">
+                                            <Setter Property="TextBlock.Text" Value="" TargetName="MinText"/>
+                                        </DataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="{Binding Path=ParamMaxWidth, Converter={StaticResource MathConverter},ConverterParameter=@VALUE-5}">
+                            <GridViewColumnHeader Content="Max" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Name="MaxBorder" BorderBrush="LightGray" Background="{Binding Path=CommEndBrush}" Margin="-8 -3" BorderThickness="0 0 1 0">
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <TextBlock Name="MaxText" Text="{Binding ParamInfo.Max}" FontSize="15" Margin="8 3"/>
+                                        </StackPanel>
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding ParamInfo.ParamType}" Value="0">
+                                            <Setter Property="TextBlock.Text" Value="" TargetName="MaxText"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ParamInfo.Max}" Value="-1">
+                                            <Setter Property="TextBlock.Text" Value="" TargetName="MaxText"/>
+                                        </DataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="{Binding Path=DescriptionWidth, Converter={StaticResource MathConverter},ConverterParameter=@VALUE-15}">
+                            <GridViewColumnHeader Content="Description" FontSize="15" FontWeight="Bold" Background="#F0F0F0"/>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Name="DescriptionBorder" BorderBrush="LightGray" Background="{Binding Path=CommEndBrush}" Margin="-8 -3" BorderThickness="0 0 1 0">
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Name="DescText" Text="{Binding ParamInfo.Description}" Margin="8 3"
+                                              HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                                        </StackPanel>
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding ParamInfo.ParamType}" Value="0">
+                                            <Setter Property="TextBlock.Text" Value="" TargetName="DescText"/>
+                                        </DataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </tree:TreeList.View>
+        </tree:TreeList>
+    </Grid>
+</UserControl>

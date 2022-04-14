@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0CB55297-E0C6-4BA7-A75A-70DF1F3EB76C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MotionGuidePro</RootNamespace>
+    <AssemblyName>MotionGuidePro</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aga.Controls">
+      <HintPath>..\..\..\..\Desktop\DCT\예제\DockingExample\packages\Aga.Controls\Aga.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Data.Desktop.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Data.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Images.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Mvvm.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v21.1.Core, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Printing.v21.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Accordion.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.Accordion.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.Core.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.Docking.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.Grid.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v21.1.Core, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.Grid.v21.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v21.1.Core, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.LayoutControl.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.LayoutControl.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Map.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.Map.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.PropertyGrid.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Bin\Framework\DevExpress.Xpf.Ribbon.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Seven.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Themes.VS2019Blue.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Themes.VS2019Dark.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Themes.VS2019Light.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Themes.Win10Light.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Core.1.1.1\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Shell.1.1.1\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock">
+      <HintPath>..\..\..\..\Desktop\DCT\예제\DockingExample\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero">
+      <HintPath>..\..\..\..\Desktop\DCT\예제\DockingExample\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro">
+      <HintPath>..\..\..\..\Desktop\DCT\예제\DockingExample\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010">
+      <HintPath>..\..\..\..\Desktop\DCT\예제\DockingExample\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>..\..\..\..\Desktop\DCT\예제\DockingExample\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Graph\Control\Oscilloscope\Measure\MeasurementControl.xaml.cs">
+      <DependentUpon>MeasurementControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Control\Oscilloscope\Measure\MeasurementControl_Event.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Measure\MeasurementControl_ViewModel.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.xaml.cs">
+      <DependentUpon>SelectionMeasureChannel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel_Event.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel_ViewModel.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\OscilloscopeControl.xaml.cs">
+      <DependentUpon>OscilloscopeControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Control\Oscilloscope\OscilloscopeControl_Event.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Trigger\TriggerControl.xaml.cs">
+      <DependentUpon>TriggerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Control\Oscilloscope\Trigger\TriggerControl_Event.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Trigger\TriggerControl_ViewModel.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.xaml.cs">
+      <DependentUpon>TriggerLineControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Control\Oscilloscope\Working\CursorData.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Working\GridCalibrationTool.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Working\LineOverlay.cs" />
+    <Compile Include="Graph\Control\Oscilloscope\Working\ShowAxisInformation.cs" />
+    <Compile Include="Graph\Control\XAxis\SignalDisplayControl.xaml.cs">
+      <DependentUpon>SignalDisplayControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Control\XAxis\SignalDisplayControl_Event.cs" />
+    <Compile Include="Graph\Control\XAxis\SignalDisplayControl_ViewModel.cs" />
+    <Compile Include="Graph\Control\YAxis\YAxisControl.xaml.cs">
+      <DependentUpon>YAxisControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Control\YAxis\YAxisControl_Event.cs" />
+    <Compile Include="Graph\Control\YAxis\YAxisControl_ViewModel.cs" />
+    <Compile Include="Graph\Tool\AutoScaleTool.cs" />
+    <Compile Include="Graph\Tool\TriggerDectectTool.cs" />
+    <Compile Include="Graph\Working\AxisInformation.cs" />
+    <Compile Include="Graph\Working\DataInformation.cs" />
+    <Compile Include="Graph\Working\DigitalSignal.cs" />
+    <Compile Include="Graph\Working\GridInformation.cs" />
+    <Compile Include="Graph\Working\Signal.cs" />
+    <Compile Include="Graph\Working\SignalOverlay.cs" />
+    <Compile Include="Interface\IContent.cs" />
+    <Compile Include="Interface\IDevice.cs" />
+    <Compile Include="Library\LogExecuteEventArgs.cs" />
+    <Compile Include="Library\LogInformation.cs" />
+    <Compile Include="Library\ModBusCommunication.cs" />
+    <Compile Include="Library\MonitoringUpdateEventArgs.cs" />
+    <Compile Include="Library\PublicVar.cs" />
+    <Compile Include="Library\ViewModel.cs" />
+    <Compile Include="Main\MainWindow_Event.cs" />
+    <Compile Include="Main\MainWindow_ViewModel.cs" />
+    <Compile Include="Popup\ChangeAxisColor.xaml.cs">
+      <DependentUpon>ChangeAxisColor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ManualScaleSetting.xaml.cs">
+      <DependentUpon>ManualScaleSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Measure\MeasureControl_Event.cs" />
+    <Compile Include="Popup\Measure\MeasureControl_ViewModel.cs" />
+    <Compile Include="Popup\Measure\SelectMeasureParam.xaml.cs">
+      <DependentUpon>SelectMeasureParam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Measure\SelectMeasureParam_Event.cs" />
+    <Compile Include="Popup\Measure\SelectMeasureParam_ViewModel.cs" />
+    <Compile Include="Popup\SelectionParameter.xaml.cs">
+      <DependentUpon>SelectionParameter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Setting.xaml.cs">
+      <DependentUpon>Setting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\TriggerSetting.xaml.cs">
+      <DependentUpon>TriggerSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Measure\MeasureControl.xaml.cs">
+      <DependentUpon>MeasureControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Type\AccessMode.cs" />
+    <Compile Include="Type\ContentType.cs" />
+    <Compile Include="Type\ErrorCodeType.cs" />
+    <Compile Include="Type\FitMode.cs" />
+    <Compile Include="Type\LogState.cs" />
+    <Compile Include="Type\MOSICodeType.cs" />
+    <Compile Include="Type\OscilloscopeParameterType.cs" />
+    <Compile Include="Type\ParamRepresentation.cs" />
+    <Compile Include="Type\ParamType.cs" />
+    <Compile Include="Type\PortType.cs" />
+    <Compile Include="Type\ThemaType.cs" />
+    <Compile Include="Type\TriggerActionType.cs" />
+    <Compile Include="Type\ZoomMode.cs" />
+    <Compile Include="Working\CanvasDragBehavior.cs" />
+    <Compile Include="Working\Content\FaultContent.cs" />
+    <Compile Include="Working\Content\MeasureContent.cs" />
+    <Compile Include="Working\Content\MonitoringContent.cs" />
+    <Compile Include="Working\Content\OscilloscopeContent.cs" />
+    <Compile Include="Working\Content\ParameterContent.cs" />
+    <Compile Include="Working\Content\UserManualContent.cs" />
+    <Compile Include="Working\Device\Device.cs" />
+    <Compile Include="Working\DraggableCanvas.cs" />
+    <Compile Include="Working\FloatingGrid.cs" />
+    <Compile Include="Working\MovableCanvas.cs" />
+    <Compile Include="Xml\XmlParser.cs" />
+    <Page Include="Graph\Control\Oscilloscope\Measure\MeasurementControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph\Control\Oscilloscope\Measure\SelectOption\SelectionMeasureChannel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph\Control\Oscilloscope\OscilloscopeControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph\Control\Oscilloscope\Trigger\TriggerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph\Control\Oscilloscope\Trigger\LineControl\TriggerLineControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph\Control\XAxis\SignalDisplayControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph\Control\YAxis\YAxisControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IBooleanParam.cs" />
+    <Compile Include="Interface\IByteArrayParam.cs" />
+    <Compile Include="Interface\IByteParam.cs" />
+    <Compile Include="Interface\ICommandParam.cs" />
+    <Compile Include="Interface\IEnumParam.cs" />
+    <Compile Include="Interface\IFileSelectParam.cs" />
+    <Compile Include="Interface\IFloatParam.cs" />
+    <Compile Include="Interface\IIntParam.cs" />
+    <Compile Include="Interface\IParam.cs" />
+    <Compile Include="Interface\IParamInfo.cs" />
+    <Compile Include="Interface\IShortParam.cs" />
+    <Compile Include="Interface\IStringParam.cs" />
+    <Compile Include="Interface\ITextModifyParam.cs" />
+    <Compile Include="Library\DevParam.cs" />
+    <Compile Include="Library\EnumEntry.cs" />
+    <Compile Include="Library\ParameterModel.cs" />
+    <Compile Include="Library\RelayCommand.cs" />
+    <Compile Include="Main\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="ParameterModel\ParameterView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Popup\ChangeAxisColor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popup\ManualScaleSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popup\Measure\SelectMeasureParam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popup\SelectionParameter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popup\Setting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popup\TriggerSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popup\Measure\MeasureControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ParameterModel\PropertyDataTemplateSelector.cs" />
+    <Compile Include="ParameterModel\ParameterView.xaml.cs">
+      <DependentUpon>ParameterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Properties_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Monitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\LMMT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Save_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Open2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Homepage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\SaveAs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\SaveAs_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Check.ico" />
+    <Resource Include="ICon\UnCheck.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\LMMT_OFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\PCI_OFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\oscilloscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Cancel.png" />
+    <Resource Include="ICon\Done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\ALL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\그래프.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Arrow_Bottom.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\DataComm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\settingICO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Check_White.png" />
+    <Resource Include="ICon\UnCheck_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\ChangeThema.png" />
+    <Resource Include="ICon\ChangeThema_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Configuration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Custom_Ribbon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Jog Mode.png" />
+    <Resource Include="ICon\Manual.png" />
+    <Resource Include="ICon\PCI.png" />
+    <Resource Include="ICon\Tuning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Faults.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\settingICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\ALL.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Monitor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Configuration.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\PCI.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Tuning.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\LMMT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Faults.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Jog Mode.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Manual.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Oscilloscope.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\ALL_OFF.png" />
+    <Resource Include="ICon\Configuration_OFF.png" />
+    <Resource Include="ICon\Faults_OFF.png" />
+    <Resource Include="ICon\Jog Mode_OFF.png" />
+    <Resource Include="ICon\Manual_OFF.png" />
+    <Resource Include="ICon\Monitor_OFF.png" />
+    <Resource Include="ICon\Oscilloscope_OFF.png" />
+    <Resource Include="ICon\Tuning_OFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\ALL_OFF.ico" />
+    <Resource Include="ICon\Configuration_OFF.ico" />
+    <Resource Include="ICon\Faults_OFF.ico" />
+    <Resource Include="ICon\Jog Mode_OFF.ico" />
+    <Resource Include="ICon\LMMT_OFF.ico" />
+    <Resource Include="ICon\Manual_OFF.ico" />
+    <Resource Include="ICon\Monitor_OFF.ico" />
+    <Resource Include="ICon\Oscilloscope_OFF.ico" />
+    <Resource Include="ICon\PCI_OFF.ico" />
+    <Resource Include="ICon\Tuning_OFF.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\PCB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\PCB_LeftON.png" />
+    <Resource Include="ICon\PCB_RightON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\ColorInvision.png" />
+    <Resource Include="ICon\ColorInvision_Reverse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\test.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\test2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Connect.ico" />
+    <Resource Include="ICon\Disconnect.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ICon\Measure.ico" />
+    <Resource Include="ICon\Measure_OFF.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graph\Control\Oscilloscope\Cursor\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

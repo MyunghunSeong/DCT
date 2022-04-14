@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AxisInformation>
+  <Axis Name="None" Min="0" Max="1" Unit="" Index="-1"/>
+  <Axis Name="Motor Feedback Position" Min="0" Max="27000" Unit="count" Index="0"/>
+  <Axis Name="Master Position" Min="-600000" Max="600000" Unit="count" Index="20"/>
+  <Axis Name="Follower Position" Min="-600000" Max="600000" Unit="count" Index="11"/>
+  <Axis Name="Position Error" Min="-600000" Max="600000" Unit="count" Index="17"/>
+  <Axis Name="Velocity Command" Min="-1000" Max="1000" Unit="mm/s" Index="10"/>
+  <Axis Name="Velocity Feedback" Min="-1100" Max="1100" Unit="mm/s" Index="19"/>
+  <Axis Name="Velocity Error" Min="-1000" Max="1000" Unit="mm/s" Index="18"/>
+  <Axis Name="Current Command" Min="0" Max="15000" Unit="mA" Index="13"/>
+  <Axis Name="Current Feedback" Min="0" Max="15000" Unit="mA" Index="15"/>
+  <Axis Name="U Phase Current" Min="0" Max="15000" Unit="mA" Index="5"/>
+  <Axis Name="V Phase Current" Min="0" Max="15000" Unit="mA" Index="6"/>
+  <Axis Name="W Phase Current" Min="0" Max="15000" Unit="mA" Index="8"/>
+  <Axis Name="Commutation Angle" Min="0" Max="1" Unit="deg" Index="7"/>
+  <Axis Name="Mechanical Angle" Min="0" Max="1" Unit="deg" Index="12"/>
+  <Axis Name="Drive Utilization" Min="0" Max="100" Unit="%" Index="9"/>
+  <Axis Name="Bus Voltage" Min="0" Max="500" Unit="V" Index="16"/>
+  <Axis Name="Motor Utilization" Min="1" Max="100" Unit="%" Index="14"/>
+  <Axis Name="LMMT_MOSI" Min="0" Max="65535" Unit="Dec" Index="1"/>
+  <Axis Name="LMMT_MISO" Min="0" Max="65535" Unit="Dec" Index="2"/>
+  <Axis Name="Fault" Min="0" Max="255" Unit="Dec" Index="3"/>
+  <Axis Name="Valid" Min="0" Max="5" Unit="Dec" Index="4"/>
+</AxisInformation>

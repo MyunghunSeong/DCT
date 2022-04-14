@@ -1,0 +1,63 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:local="clr-namespace:CrevisLibrary">
+    <Style TargetType="{x:Type local:DraggableCanvas}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TreeView}">
+                    <ControlTemplate.Resources>
+                        <Style TargetType="{x:Type TreeViewItem}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type TreeViewItem}">
+                                        <Canvas x:Name="PART_Canvas">
+                                            <ContentPresenter
+                                                ContentTemplate="{TemplateBinding HeaderTemplate}"
+                                                Canvas.Left="{Binding (Canvas.Left)}"
+                                                Canvas.Right="{Binding (Canvas.Right)}"
+                                                Canvas.Top="{Binding (Canvas.Top)}"
+                                                Canvas.Bottom="{Binding (Canvas.Bottom)}"
+                                                Content="{TemplateBinding Header}">
+                                                <i:Interaction.Behaviors>
+                                                    <local:CanvasDragBehavior
+                                                        BaseElement="{Binding RelativeSource={RelativeSource AncestorType=local:MovableCanvas}}"
+                                                        TargetElement="{Binding RelativeSource={RelativeSource AncestorType=TreeViewItem}}" />
+                                                </i:Interaction.Behaviors>
+                                            </ContentPresenter>
+                                            <ItemsPresenter />
+                                        </Canvas>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="ItemsPanel">
+                                <Setter.Value>
+                                    <ItemsPanelTemplate>
+                                        <Canvas />
+                                    </ItemsPanelTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ControlTemplate.Resources>
+                    <local:FlottingGrid x:Name="PART_FloatingGrid"
+                        GridOffsetX="{Binding ElementName=PART_RootCanvas, Path=OffsetX}"
+                        GridOffsetY="{Binding ElementName=PART_RootCanvas, Path=OffsetY}"
+                        ZoomRate="{Binding RelativeSource={RelativeSource AncestorType=local:DraggableCanvas}, Path=ZoomRate}"
+                        Background="{TemplateBinding Background}">
+                        <local:MovableCanvas x:Name="PART_RootCanvas"
+                            Background="Transparent"
+                            IsItemsHost="True" 
+                            MovingRatio="{Binding RelativeSource={RelativeSource AncestorType=local:DraggableCanvas}, Path=ZoomRate}">
+                            <!--<local:MovableCanvas.LayoutTransform>
+                                <ScaleTransform
+                                    ScaleX="{Binding RelativeSource={RelativeSource AncestorType=local:DraggableCanvas}, Path=ZoomRate}"
+                                    ScaleY="{Binding RelativeSource={RelativeSource AncestorType=local:DraggableCanvas}, Path=ZoomRate}"/>
+                            </local:MovableCanvas.LayoutTransform>-->
+                        </local:MovableCanvas>
+                    </local:FlottingGrid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
